@@ -1,4 +1,4 @@
-# Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial
+# 📘 Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial
 
 Repositorio oficial del libro **Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial**.
 
@@ -8,7 +8,7 @@ El objetivo es facilitar el aprendizaje práctico del procesamiento digital de s
 
 ---
 
-# Contenido del repositorio
+## 📂 Contenido del repositorio
 
 El repositorio está organizado por capítulos.
 
@@ -30,7 +30,7 @@ Cada capítulo contiene un único notebook de Jupyter, diseñado para ejecutarse
 
 ---
 
-# Organización del libro
+## 📖 Organización del libro
 
 ## Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
 
@@ -103,7 +103,7 @@ Notebook del capítulo:
 
 ---
 
-# Ejecución
+## ▶️ Ejecución
 
 Los notebooks pueden ejecutarse en:
 
@@ -114,7 +114,7 @@ Los notebooks pueden ejecutarse en:
 
 ---
 
-# Público objetivo
+## 🎓 Público objetivo
 
 Este material está dirigido a:
 
@@ -125,7 +125,7 @@ Este material está dirigido a:
 
 ---
 
-# Cómo citar
+## 📚 Cómo citar
 
 Si este material resulta útil para su trabajo académico o de investigación, agradecemos citar el libro correspondiente.
 
@@ -137,7 +137,7 @@ Editorial Redipe, 2026.
 
 ---
 
-# Licencia
+## 📄 Licencia
 
 Este repositorio se distribuye únicamente con fines educativos y de investigación.
 
@@ -145,7 +145,7 @@ Consulte el archivo **LICENSE** para más información.
 
 ---
 
-# Contacto
+## 📧 Contacto
 
 **Prof. Dora María Ballesteros**
 
