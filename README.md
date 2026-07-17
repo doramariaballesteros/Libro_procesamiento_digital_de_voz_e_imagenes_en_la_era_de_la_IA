@@ -1,10 +1,23 @@
-# 📘 Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial
+# 📘 Procesamiento Digital de Voz e Imágenes en la era de la Inteligencia Artificial
 
-Repositorio oficial del libro **Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial**.
+> **Repositorio oficial del libro**
+>
+> **Procesamiento Digital de Voz e Imágenes en la era de la Inteligencia Artificial**  
+> **Dora María Ballesteros**  
+> **Editorial Redipe, 2026**
+Nota aclaratoria: el libro se encuentra en evaluación Editorial
 
-Este repositorio reúne el material complementario del libro, incluyendo notebooks de Jupyter, conjuntos de datos de ejemplo y recursos necesarios para reproducir los experimentos desarrollados a lo largo de los diferentes capítulos.
+---
 
-El objetivo es facilitar el aprendizaje práctico del procesamiento digital de señales mediante ejemplos completamente reproducibles utilizando Python.
+## 📖 Sobre este repositorio
+
+Este repositorio contiene el material práctico del libro **Procesamiento Digital de Señales e Imágenes en la Era de la Inteligencia Artificial**.
+
+El libro integra los fundamentos clásicos del Procesamiento Digital de Señales con herramientas modernas de Inteligencia Artificial mediante ejemplos y casos de estudio completamente reproducibles desarrollados en Python utilizando Jupyter Notebooks.
+
+Los notebooks acompañan los capítulos prácticos del libro e incluyen el desarrollo paso a paso de algoritmos para el procesamiento de señales, imágenes y audio, permitiendo al lector experimentar y comprender cada una de las técnicas estudiadas.
+
+El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector pueda ejecutar, modificar y extender cada uno de los ejemplos desarrollados en el libro.
 
 ---
 
