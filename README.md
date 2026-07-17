@@ -34,14 +34,18 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 | **6** | 🧠 **Segmentación Automática con Inteligencia Artificial** | Desarrollo de un modelo basado en U-Net para la segmentación automática de imágenes, utilizando un conjunto de datos real y herramientas modernas de aprendizaje profundo. | [Abrir](Capitulo_6.ipynb) |
 
 ---
+# 🎙️ Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
 
-## 📖 Organización del libro
+# 🎵 Capítulo 1. Fundamentos del Procesamiento Digital de Señales y Filtros Digitales
 
-## Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
+📒 **Notebook:**  
+[Capitulo_1.ipynb](Capitulo_1.ipynb)
 
-### Capítulo 1. Fundamentos del Procesamiento Digital de Señales y filtros digitales
+### 🎯 Objetivo
 
-Notebook del capítulo:
+Comprender los fundamentos del procesamiento digital de señales y el diseño de filtros digitales FIR e IIR mediante ejemplos implementados en Python, analizando su comportamiento en los dominios del tiempo y de la frecuencia.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 1. Señal discreta en Python de duración finita.
 - Ejemplo 3. Polos y ceros a partir de la función de transferencia.
@@ -53,9 +57,16 @@ Notebook del capítulo:
 
 ---
 
-### Capítulo 2. Eliminación de ruido con filtros digitales
+# 🔇 Capítulo 2. Eliminación de Ruido con Filtros Digitales
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo_2.ipynb](Capitulo_2.ipynb)
+
+### 🎯 Objetivo
+
+Aplicar diferentes técnicas de filtrado digital para reducir el ruido presente en señales de voz, comparando el desempeño de filtros clásicos en los dominios del tiempo y de la frecuencia.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 11. Lectura y visualización en los dominios del tiempo y la frecuencia de una señal de voz.
 - Ejemplo 12. Análisis de una señal de voz con ruido.
@@ -67,21 +78,35 @@ Notebook del capítulo:
 
 ---
 
-### Capítulo 3. IA para localización de interferencias y filtrado espectral
+# 🤖 Capítulo 3. Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo_3.ipynb](Capitulo_3.ipynb)
+
+### 🎯 Objetivo
+
+Implementar técnicas de Inteligencia Artificial para localizar automáticamente interferencias espectrales y comparar su desempeño con métodos clásicos de filtrado aplicados a señales de voz.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 18. Algoritmo K-Means aplicado al filtrado de ruido tonal en una señal de voz.
 - Ejemplo 19. Algoritmo DBSCAN aplicado al filtrado de ruido tonal en una señal de voz.
-- Ejemplo 20. Comparación cuantitativa entre filtros FIR, IIR y una máscara espectral basada en inteligencia artificial.
+- Ejemplo 20. Comparación cuantitativa entre filtros FIR, IIR y una máscara espectral basada en Inteligencia Artificial.
 
 ---
 
-## Sección II. Procesamiento Digital de Imágenes e Inteligencia Artificial
+# 🖼️ Sección II. Procesamiento Digital de Imágenes e Inteligencia Artificial
 
-### Capítulo 4. Fundamentos del Procesamiento Digital de Imágenes
+# 🖼️ Capítulo 4. Fundamentos del Procesamiento Digital de Imágenes
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo_4.ipynb](Capitulo_4.ipynb)
+
+### 🎯 Objetivo
+
+Comprender los fundamentos del procesamiento digital de imágenes mediante técnicas clásicas de mejora, detección de bordes y segmentación implementadas en Python.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 22. Ecualización de imágenes en escala de grises.
 - Ejemplo 23. Ecualización de imágenes a color utilizando el modelo HSV.
@@ -90,9 +115,16 @@ Notebook del capítulo:
 
 ---
 
-### Capítulo 5. Segmentación de imágenes con técnicas clásicas de PDI
+# ✂️ Capítulo 5. Segmentación de Imágenes con Técnicas Clásicas de PDI
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo_5.ipynb](Capitulo_5.ipynb)
+
+### 🎯 Objetivo
+
+Aplicar técnicas clásicas de procesamiento digital de imágenes para segmentar objetos mediante máscaras binarias, contornos, operaciones morfológicas y análisis de centroides.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 27. Segmentación de una hoja mediante una máscara binaria en el modelo HSV.
 - Ejemplo 28. Segmentación de una hoja mediante contornos y máscara binaria.
@@ -100,9 +132,16 @@ Notebook del capítulo:
 
 ---
 
-### Capítulo 6. Segmentación automática con Inteligencia Artificial
+# 🧠 Capítulo 6. Segmentación Automática con Inteligencia Artificial
 
-Notebook del capítulo:
+📒 **Notebook:**  
+[Capitulo_6.ipynb](Capitulo_6.ipynb)
+
+### 🎯 Objetivo
+
+Desarrollar un modelo de segmentación semántica basado en la arquitectura U-Net para identificar automáticamente la hoja principal del dataset RoCoLe mediante técnicas modernas de aprendizaje profundo.
+
+### 📑 Contenido del notebook
 
 - Ejemplo 30. Entrenamiento de una U-Net para la segmentación automática de la hoja principal del dataset RoCoLe.
 
