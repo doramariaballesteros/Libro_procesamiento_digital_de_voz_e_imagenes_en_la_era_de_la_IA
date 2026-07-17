@@ -159,12 +159,14 @@ Consulte el archivo **LICENSE** para más información.
 
 ---
 
-## 📧 Contacto
+---
 
-**Prof. Dora María Ballesteros**
+# 📧 Contacto
 
+**Dora María Ballesteros**  
+Profesora e Investigadora  
 Universidad Militar Nueva Granada
 
-📧 dora.ballesteros@unimilitar.edu.co
+📧 **dora.ballesteros@unimilitar.edu.co**
 
-Bogotá, Colombia
+📍 Bogotá, Colombia
