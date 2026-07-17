@@ -147,14 +147,18 @@ Desarrollar un modelo de segmentación semántica basado en la arquitectura U-Ne
 
 ---
 
-## ▶️ Ejecución
+# 🎯 Objetivos de aprendizaje
 
-Los notebooks pueden ejecutarse en:
+A través de los notebooks el lector aprenderá a:
 
-- Google Colab (100% compatible)
-- Jupyter Notebook
-- JupyterLab
-- Visual Studio Code
+- 🎵 Analizar señales de voz en los dominios del tiempo y de la frecuencia.
+- 🔇 Aplicar técnicas clásicas de filtrado digital para la reducción de ruido en señales de audio.
+- 🤖 Utilizar algoritmos de Inteligencia Artificial para la localización de interferencias y el filtrado espectral.
+- 🖼️ Aplicar técnicas clásicas de Procesamiento Digital de Imágenes para mejorar y segmentar imágenes.
+- ✂️ Implementar algoritmos de segmentación basados en máscaras binarias, contornos y operaciones morfológicas.
+- 🧠 Desarrollar modelos de segmentación automática mediante arquitecturas modernas de Aprendizaje Profundo.
+- 💻 Implementar todos los algoritmos utilizando lenguaje Python.
+- 🔬 Experimentar con ejemplos y casos de estudio completamente reproducibles.
 
 ---
 
