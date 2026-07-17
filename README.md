@@ -24,7 +24,7 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 
 # 📚 Contenido del libro
 
-| Sección | Cap. | Tema | Descripción | 📒 Notebook | 📂 Recursos |
+| Sección | Cap. | Tema | Descripción | 📒 Notebook | 📂 Archivos |
 |:--------|:---:|------|-------------|:----------:|:----------:|
 | 🎙️ **Audio** | **1** | 🎵 **Fundamentos del Procesamiento Digital de Señales y Filtros Digitales** | Introducción a los fundamentos del procesamiento digital de señales, diseño y análisis de filtros FIR e IIR mediante ejemplos implementados en Python. | [Abrir](Capitulo_1.ipynb) | [Audio](Audio/) |
 | | **2** | 🔇 **Eliminación de Ruido con Filtros Digitales** | Aplicación de filtros digitales para la reducción de ruido en señales de voz, comparando diferentes estrategias de filtrado en los dominios del tiempo y la frecuencia. | [Abrir](Capitulo_2.ipynb) | [Audio](Audio/) |
@@ -33,6 +33,7 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 | | **5** | ✂️ **Segmentación de Imágenes con Técnicas Clásicas de PDI** | Aplicación de técnicas clásicas de segmentación utilizando máscaras binarias, contornos, operaciones morfológicas y análisis de centroides. | [Abrir](Capitulo_5.ipynb) | [Imágenes](Imagenes/) |
 | | **6** | 🧠 **Segmentación Automática con Inteligencia Artificial** | Desarrollo de un modelo basado en la arquitectura U-Net para la segmentación automática de imágenes, utilizando un conjunto de datos real y herramientas modernas de aprendizaje profundo. | [Abrir](Capitulo_6.ipynb) | [Imágenes](Imagenes/) |
 
+> **Nota:** Los notebooks reutilizan los mismos conjuntos de audios e imágenes en diferentes capítulos. Por este motivo, los recursos se organizan en dos carpetas principales (**Audio** e **Imagenes**), evitando la duplicación de archivos y facilitando su mantenimiento.
 ---
 # 🎙️ Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
 
