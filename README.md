@@ -22,25 +22,16 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 
 ---
 
-## 📂 Contenido del repositorio
+# 📚 Contenido del libro
 
-El repositorio está organizado por capítulos.
-
-```
-├── Capitulo_1/
-├── Capitulo_2/
-├── Capitulo_3/
-├── Capitulo_4/
-├── Capitulo_5/
-├── Capitulo_6/
-├── datasets/
-├── imagenes/
-├── audios/
-├── requirements.txt
-└── README.md
-```
-
-Cada capítulo contiene un único notebook de Jupyter, diseñado para ejecutarse tanto de manera local como en **Google Colab**, junto con los recursos necesarios para reproducir los ejemplos presentados en el libro.
+| Cap. | Tema | Descripción | 📒 Notebook |
+|:---:|------|-------------|:----------:|
+| **1** | 🎙️ **Fundamentos del Procesamiento Digital de Señales y Filtros Digitales** | Introducción a los fundamentos del procesamiento digital de señales, diseño y análisis de filtros FIR e IIR mediante ejemplos implementados en Python. | [Abrir](Capitulo_1.ipynb) |
+| **2** | 🔇 **Eliminación de Ruido con Filtros Digitales** | Aplicación de filtros digitales para la reducción de ruido en señales de voz, comparando diferentes estrategias de filtrado en los dominios del tiempo y la frecuencia. | [Abrir](Capitulo_2.ipynb) |
+| **3** | 🤖 **Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral** | Uso de técnicas de Inteligencia Artificial para la localización automática de interferencias y el filtrado espectral de señales de voz mediante algoritmos de aprendizaje no supervisado. | [Abrir](Capitulo_3.ipynb) |
+| **4** | 🖼️ **Fundamentos del Procesamiento Digital de Imágenes** | Introducción a las principales técnicas de procesamiento digital de imágenes, incluyendo ecualización, detección de bordes y segmentación mediante el modelo HSV. | [Abrir](Capitulo_4.ipynb) |
+| **5** | ✂️ **Segmentación de Imágenes con Técnicas Clásicas de PDI** | Aplicación de técnicas clásicas de segmentación utilizando máscaras binarias, contornos, operaciones morfológicas y análisis de centroides. | [Abrir](Capitulo_5.ipynb) |
+| **6** | 🧠 **Segmentación Automática con Inteligencia Artificial** | Desarrollo de un modelo basado en U-Net para la segmentación automática de imágenes, utilizando un conjunto de datos real y herramientas modernas de aprendizaje profundo. | [Abrir](Capitulo_6.ipynb) |
 
 ---
 
