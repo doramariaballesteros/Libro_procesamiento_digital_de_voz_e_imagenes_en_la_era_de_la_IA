@@ -1,11 +1,12 @@
-# 📘 Procesamiento Digital de Voz e Imágenes en la era de la Inteligencia Artificial
+# 📘 Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial
 
 > **Repositorio oficial del libro**
 >
-> **Procesamiento Digital de Voz e Imágenes en la era de la Inteligencia Artificial**  
+> **Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial**  
 > **Dora María Ballesteros**  
 > **Editorial Redipe, 2026**
-Nota aclaratoria: el libro se encuentra en evaluación Editorial
+
+> **📌 Nota:** Este repositorio corresponde al libro actualmente **en proceso de evaluación editorial**. La información bibliográfica definitiva (ISBN y datos de publicación) se actualizará una vez finalice el proceso editorial.
 
 ---
 
