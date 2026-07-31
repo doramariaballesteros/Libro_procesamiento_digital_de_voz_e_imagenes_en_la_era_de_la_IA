@@ -86,25 +86,26 @@ Finalmente compare:
 
 ---
 
-## 📊 Etapa 4. Comparación de soluciones
+## 📊 Etapa 4. Evaluación objetiva del desempeño
 
-Todas las soluciones deberán evaluarse mediante el indicador
+Con el fin de comparar objetivamente todas las soluciones implementadas, cada grupo deberá calcular los siguientes indicadores para **cada filtro desarrollado**:
+
+- **E_voz:** Energía de la señal de voz.
+- **E_residual:** Energía residual de la interferencia, calculada dentro de una ventana de **100 Hz** centrada en la frecuencia de la interferencia.
+- **R:** Indicador de desempeño definido como:
 
 $$
 R=\frac{E_{\text{residual}}}{E_{\text{voz}}}
 $$
 
-donde:
+Una vez calculados estos indicadores, los estudiantes deberán:
 
-- **E_residual** corresponde a la energía residual calculada dentro de una ventana de **100 Hz** centrada en la frecuencia de la interferencia.
+1. Construir una tabla comparativa con los valores de **E_voz**, **E_residual** y **R** obtenidos para cada técnica implementada.
+2. Comparar cuantitativamente todas las soluciones.
+3. Seleccionar la alternativa con mejor desempeño.
+4. Justificar técnicamente la decisión utilizando los resultados obtenidos.
 
-- **E_voz** corresponde a la energía de la señal de voz.
-
-> 📌 **Interpretación**
->
-> Valores menores de **R** indican una mejor eliminación de la interferencia.
-
-La solución final deberá seleccionarse utilizando este indicador y no únicamente mediante inspección visual o auditiva.
+> 📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía de la voz y, por tanto, mejor será el desempeño de la técnica implementada.
 
 ---
 
@@ -124,9 +125,9 @@ Cada grupo deberá entregar:
 
 | Criterio | Nivel Excelente ⭐ 4–5 | Nivel Bueno ✅ 3 | Nivel Básico 🟡 2 | Nivel Inicial 🔴 1 |
 |:---|:---|:---|:---|:---|
-| 🎛️ **Aplicación de filtros FIR e IIR** | Diseña correctamente ambos filtros, justifica técnicamente sus parámetros y analiza críticamente sus ventajas y limitaciones. | Implementa correctamente ambos filtros con una justificación adecuada. | Implementa ambos filtros, pero presenta deficiencias en el diseño o en la justificación. | La implementación es incompleta o presenta errores que afectan el funcionamiento. |
-| 🤖 **Aplicación de Inteligencia Artificial** | Implementa correctamente DBSCAN, localiza automáticamente la interferencia e integra el resultado al diseño del filtro. | Implementa correctamente DBSCAN con una interpretación parcial de los resultados. | Implementa la técnica con dificultades en la localización o interpretación de la interferencia. | La implementación no permite localizar adecuadamente la interferencia. |
-| 📊 **Evaluación y selección de la mejor solución** | Compara todas las alternativas utilizando el indicador **R**, interpreta los resultados y justifica rigurosamente la solución seleccionada. | Compara todas las alternativas y selecciona adecuadamente la mejor solución. | Presenta una comparación parcial o con escasa justificación técnica. | La selección de la solución no está sustentada mediante criterios objetivos. |
+| 🎛️ **Aplicación de filtros digitales (FIR e IIR)** | Diseña e implementa correctamente filtros FIR e IIR, justifica técnicamente los parámetros seleccionados y analiza las ventajas y limitaciones de cada alternativa. | Diseña e implementa correctamente filtros FIR e IIR, aunque la justificación técnica es parcial. | Implementa los filtros, pero presenta errores en el diseño o una justificación técnica limitada. | No implementa correctamente los filtros o la solución propuesta no funciona adecuadamente. |
+| 🤖 **Aplicación de Inteligencia Artificial** | Implementa correctamente DBSCAN para localizar automáticamente la interferencia e integra los resultados en el diseño de la solución de filtrado. | Implementa correctamente DBSCAN, aunque la integración o el análisis de los resultados es parcial. | Implementa DBSCAN con dificultades en la localización de la interferencia o en la interpretación de los resultados. | No implementa correctamente la técnica de IA o los resultados obtenidos no son funcionales. |
+| 📊 **Evaluación y selección de la mejor solución** | Calcula correctamente **E<sub>voz</sub>**, **E<sub>residual</sub>** y **R** para todas las técnicas implementadas; compara objetivamente los resultados e identifica y justifica rigurosamente la mejor solución utilizando criterios objetivos de desempeño. | Calcula correctamente los indicadores requeridos, compara todas las técnicas implementadas y selecciona adecuadamente la mejor solución, aunque la interpretación o la justificación son parciales. | Calcula parcialmente los indicadores o presenta errores en su interpretación, lo que limita la comparación objetiva entre las técnicas implementadas. | No calcula los indicadores requeridos o la selección de la solución no está sustentada mediante criterios objetivos de desempeño. |
 
 ---
 
