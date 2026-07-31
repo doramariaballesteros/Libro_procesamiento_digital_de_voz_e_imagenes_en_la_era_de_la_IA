@@ -28,9 +28,9 @@ El objetivo consiste en desarrollar una metodología que permita:
 
 - 🔍 Analizar la señal.
 - 📈 Localizar la interferencia.
-- 🎛️ Diseñar diferentes filtros digitales.
+- 🎛️ Diseñar diferentes filtros digitales (FIR e IIR).
 - 🤖 Utilizar Inteligencia Artificial para apoyar la localización automática de la interferencia.
-- 📊 Comparar objetivamente todas las soluciones.
+- 📊 Comparar objetivamente todas las soluciones (parámetros matemáticos de evaluación).
 - 🏆 Seleccionar la alternativa con mejor desempeño.
 
 > **Importante**
