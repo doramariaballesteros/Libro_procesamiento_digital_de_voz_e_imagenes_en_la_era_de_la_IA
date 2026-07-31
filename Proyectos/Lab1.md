@@ -123,12 +123,33 @@ Cada grupo deberá entregar:
 
 # 📝 Rúbrica de evaluación
 
-| Criterio | Nivel Excelente ⭐ 4–5 | Nivel Bueno ✅ 3 | Nivel Básico 🟡 2 | Nivel Inicial 🔴 1 |
-|:---|:---|:---|:---|:---|
-| 🎛️ **Aplicación de filtros digitales (FIR e IIR)** | Diseña e implementa correctamente filtros FIR e IIR, justifica técnicamente los parámetros seleccionados y analiza las ventajas y limitaciones de cada alternativa. | Diseña e implementa correctamente filtros FIR e IIR, aunque la justificación técnica es parcial. | Implementa los filtros, pero presenta errores en el diseño o una justificación técnica limitada. | No implementa correctamente los filtros o la solución propuesta no funciona adecuadamente. |
-| 🤖 **Aplicación de Inteligencia Artificial** | Implementa correctamente DBSCAN para localizar automáticamente la interferencia e integra los resultados en el diseño de la solución de filtrado. | Implementa correctamente DBSCAN, aunque la integración o el análisis de los resultados es parcial. | Implementa DBSCAN con dificultades en la localización de la interferencia o en la interpretación de los resultados. | No implementa correctamente la técnica de IA o los resultados obtenidos no son funcionales. |
-| 📊 **Evaluación y selección de la mejor solución** | Calcula correctamente **E<sub>voz</sub>**, **E<sub>residual</sub>** y **R** para todas las técnicas implementadas; compara objetivamente los resultados e identifica y justifica rigurosamente la mejor solución utilizando criterios objetivos de desempeño. | Calcula correctamente los indicadores requeridos, compara todas las técnicas implementadas y selecciona adecuadamente la mejor solución, aunque la interpretación o la justificación son parciales. | Calcula parcialmente los indicadores o presenta errores en su interpretación, lo que limita la comparación objetiva entre las técnicas implementadas. | No calcula los indicadores requeridos o la selección de la solución no está sustentada mediante criterios objetivos de desempeño. |
+### 🎛️ Criterio 1. Aplicación de filtros digitales (500 puntos)
 
+| Acción observable | Insuficiente (0–200) | En proceso (200–350) | Sobresaliente (350–500) |
+|:---|:---|:---|:---|
+| Diseña un filtro FIR. | No lo diseña o presenta errores que impiden su funcionamiento. | Diseña el filtro, pero con parámetros parcialmente correctos o insuficientemente justificados. | Diseña correctamente el filtro y justifica técnicamente los parámetros seleccionados. |
+| Diseña un filtro IIR. | No lo diseña o presenta errores que impiden su funcionamiento. | Diseña el filtro, pero con parámetros parcialmente correctos o insuficientemente justificados. | Diseña correctamente el filtro y justifica técnicamente los parámetros seleccionados. |
+| Analiza las ventajas y limitaciones de ambas soluciones. | No realiza el análisis o este es incorrecto. | Presenta un análisis parcial o superficial. | Presenta un análisis completo, correcto y sustentado técnicamente. |
+
+### 🤖 Criterio 2. Aplicación de Inteligencia Artificial (500 puntos)
+
+| Acción observable | Insuficiente (0–200) | En proceso (200–350) | Sobresaliente (350–500) |
+|:---|:---|:---|:---|
+| Implementa DBSCAN sobre el espectrograma. | No implementa correctamente el algoritmo. | Implementa el algoritmo, pero con dificultades en su configuración o ejecución. | Implementa correctamente DBSCAN sobre el espectrograma. |
+| Localiza automáticamente la interferencia. | No identifica la interferencia. | Localiza parcialmente la interferencia o presenta errores en la estimación de la frecuencia. | Localiza correctamente la interferencia y estima adecuadamente su frecuencia. |
+| Utiliza la frecuencia estimada para apoyar el diseño del filtro. | No utiliza la información obtenida por IA. | Utiliza parcialmente la información obtenida. | Integra correctamente la información obtenida mediante IA en el diseño del filtro. |
+
+### 📊 Criterio 3. Evaluación y selección de la mejor solución (500 puntos)
+
+| Acción observable | Insuficiente (0–200) | En proceso (200–350) | Sobresaliente (350–500) |
+|:---|:---|:---|:---|
+| Calcula **E<sub>voz</sub>**. | No calcula el indicador o el cálculo es incorrecto. | Calcula el indicador, pero presenta errores menores. | Calcula correctamente el indicador. |
+| Calcula **E<sub>residual</sub>**. | No calcula el indicador o el cálculo es incorrecto. | Calcula el indicador, pero presenta errores menores. | Calcula correctamente el indicador. |
+| Calcula **R**. | No calcula el indicador o el cálculo es incorrecto. | Calcula el indicador, pero presenta errores menores. | Calcula correctamente el indicador. |
+| Compara objetivamente todas las soluciones implementadas. | No realiza la comparación o esta es incorrecta. | Realiza una comparación parcial entre las soluciones. | Compara objetivamente todas las soluciones utilizando los indicadores calculados. |
+| Selecciona la mejor solución y justifica la decisión. | No justifica la selección o la justificación es incorrecta. | Justifica parcialmente la decisión tomada. | Justifica rigurosamente la selección utilizando criterios objetivos de desempeño. |
+
+Nota final =  corresponde al promedio de las notas obtenidas en cada criterio de evaluación
 ---
 
 # 🎯 Resultado de Aprendizaje evaluado
