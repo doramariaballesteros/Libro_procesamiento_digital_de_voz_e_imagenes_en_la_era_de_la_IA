@@ -47,8 +47,8 @@ Realice un análisis exploratorio de la señal utilizando las herramientas vista
 
 Como mínimo deberán presentarse:
 
-- Forma de onda.
-- Espectro de magnitud.
+- Señal en el dominio del tiempo.
+- Espectro de la señal en escala lineal.
 - Espectrograma.
 
 A partir del análisis realizado proponga una hipótesis sobre la ubicación de la interferencia.
@@ -66,8 +66,8 @@ Como mínimo deberán implementarse:
 
 Para cada alternativa explique:
 
-- criterios de diseño,
-- parámetros seleccionados,
+- tipo de filtro (pasa-bajos, pasa-altos, pasa-banda, rechaza-banda),
+- parámetros seleccionados (frecuencia de corte, orden del filtro, ...),
 - ventajas,
 - limitaciones observadas.
 
@@ -77,7 +77,7 @@ Para cada alternativa explique:
 
 Implemente el algoritmo **DBSCAN** sobre el espectrograma con el fin de localizar automáticamente la interferencia tonal.
 
-Utilice la frecuencia estimada por el algoritmo para apoyar el diseño del filtro digital correspondiente.
+Utilice la frecuencia estimada por el algoritmo para apoyar el diseño del filtro digital correspondiente. Aplique una máscara. 
 
 Finalmente compare:
 
