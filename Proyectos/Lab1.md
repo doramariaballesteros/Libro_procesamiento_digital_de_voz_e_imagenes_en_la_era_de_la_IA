@@ -90,9 +90,9 @@ Finalmente compare:
 
 Todas las soluciones deberán evaluarse mediante el indicador
 
-\[
-R=\frac{E_{residual}}{E_{voz}}
-\]
+$$
+R=\frac{E_{\text{residual}}}{E_{\text{voz}}}
+$$
 
 donde:
 
@@ -122,7 +122,7 @@ Cada grupo deberá entregar:
 
 # 📝 Rúbrica de evaluación
 
-| Criterio | Nivel 4 ⭐ Excelente | Nivel 3 ✅ Bueno | Nivel 2 🟡 Básico | Nivel 1 🔴 Inicial |
+| Criterio | Nivel Excelente ⭐ 4–5 | Nivel Bueno ✅ 3 | Nivel Básico 🟡 2 | Nivel Inicial 🔴 1 |
 |:---|:---|:---|:---|:---|
 | 🎛️ **Aplicación de filtros FIR e IIR** | Diseña correctamente ambos filtros, justifica técnicamente sus parámetros y analiza críticamente sus ventajas y limitaciones. | Implementa correctamente ambos filtros con una justificación adecuada. | Implementa ambos filtros, pero presenta deficiencias en el diseño o en la justificación. | La implementación es incompleta o presenta errores que afectan el funcionamiento. |
 | 🤖 **Aplicación de Inteligencia Artificial** | Implementa correctamente DBSCAN, localiza automáticamente la interferencia e integra el resultado al diseño del filtro. | Implementa correctamente DBSCAN con una interpretación parcial de los resultados. | Implementa la técnica con dificultades en la localización o interpretación de la interferencia. | La implementación no permite localizar adecuadamente la interferencia. |
