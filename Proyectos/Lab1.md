@@ -1,4 +1,4 @@
-# 🎯 Proyecto Integrador
+# 🎯 Proyecto Sección I
 # Eliminación Inteligente de una Interferencia Tonal en una Señal de Voz
 
 > 📘 **Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial**
