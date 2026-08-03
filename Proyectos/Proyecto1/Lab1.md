@@ -91,13 +91,58 @@ Finalmente compare:
 
 Con el fin de comparar objetivamente todas las soluciones implementadas, cada grupo deberá calcular los siguientes indicadores para **cada filtro desarrollado**:
 
-- **E_voz:** Energía de la señal de voz.
-- **E_residual:** Energía residual de la interferencia, calculada dentro de una ventana de **100 Hz** centrada en la frecuencia de la interferencia. La ventana de 100 Hz deberá centrarse en la frecuencia estimada automáticamente mediante DBSCAN durante la Etapa 3.
+- **E_voz:** Energía espectral conservada fuera de la ventana de **100 Hz** centrada en la frecuencia de la interferencia. Aunque en el código se conserva el nombre `Evoz`, este indicador no corresponde exclusivamente a la energía de la voz, sino a la energía de la señal ubicada fuera de la banda asociada con la interferencia.
+- **E_residual:** Energía residual de la interferencia, calculada dentro de una ventana de **100 Hz** centrada en la frecuencia estimada automáticamente mediante **DBSCAN** durante la Etapa 3.
 - **R:** Indicador de desempeño definido como:
 
 $$
 R=\frac{E_{\text{residual}}}{E_{\text{voz}}}
 $$
+
+> 📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía espectral conservada fuera de la banda de interferencia y, por tanto, mejor será el desempeño de la técnica implementada.
+
+
+> 💡 **Ejemplo**
+>
+> Suponga que, después de aplicar **DBSCAN**, se estima que la frecuencia de la interferencia se encuentra en **1800 Hz**.
+>
+> En este caso:
+>
+> - La **energía residual de la interferencia** se calculará sobre una ventana de **100 Hz** centrada en dicha frecuencia, es decir:
+>
+> $$
+> 1750 \leq f \leq 1850\ \text{Hz}
+> $$
+>
+> y se define como:
+>
+> $$
+> E_{\text{residual}}
+> =
+> \sum_{t}
+> \sum_{f=1750}^{1850}
+> S(t,f)
+> $$
+>
+> - La **energía conservada de la señal** corresponderá a toda la energía espectral ubicada **fuera de esa ventana**, es decir:
+>
+> $$
+> E_{\text{voz}}
+> =
+> \sum_{t}
+> \sum_{f\notin[1750,1850]}
+> S(t,f)
+> $$
+>
+> Finalmente, el indicador de desempeño se calcula como:
+>
+> $$
+> R=
+> \frac{E_{\text{residual}}}
+> {E_{\text{voz}}}
+> $$
+>
+> Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía espectral conservada y, por tanto, mejor será el desempeño de la técnica implementada.
 
 Una vez calculados estos indicadores, los estudiantes deberán:
 
