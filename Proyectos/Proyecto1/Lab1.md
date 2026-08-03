@@ -50,6 +50,7 @@ Como mínimo deberán presentarse:
 - Señal en el dominio del tiempo.
 - Espectro de la señal en escala lineal.
 - Espectrograma.
+- Hipótesis inicial sobre la ubicación de la interferencia y justificación.
 
 A partir del análisis realizado proponga una hipótesis sobre la ubicación de la interferencia.
 
@@ -57,7 +58,7 @@ A partir del análisis realizado proponga una hipótesis sobre la ubicación de 
 
 ## 🎛️ Etapa 2. Diseño de filtros digitales
 
-Diseñe e implemente diferentes estrategias de filtrado utilizando técnicas clásicas de Procesamiento Digital de Señales.
+Diseñe e implemente diferentes estrategias de filtrado utilizando técnicas clásicas de Procesamiento Digital de Señales. Justifique técnicamente la selección de los parámetros del filtro (frecuencia de corte o rechazo, ancho de banda, orden del filtro y demás parámetros relevantes).
 
 Como mínimo deberán implementarse:
 
@@ -77,7 +78,7 @@ Para cada alternativa explique:
 
 Implemente el algoritmo **DBSCAN** sobre el espectrograma con el fin de localizar automáticamente la interferencia tonal.
 
-Utilice la frecuencia estimada por el algoritmo para apoyar el diseño del filtro digital correspondiente. Aplique una máscara. 
+Utilice la frecuencia estimada por el algoritmo para apoyar el diseño del filtro digital correspondiente. Posteriormente, utilice esa misma frecuencia para construir la máscara espectral empleada en la evaluación objetiva del desempeño.
 
 Finalmente compare:
 
@@ -91,7 +92,7 @@ Finalmente compare:
 Con el fin de comparar objetivamente todas las soluciones implementadas, cada grupo deberá calcular los siguientes indicadores para **cada filtro desarrollado**:
 
 - **E_voz:** Energía de la señal de voz.
-- **E_residual:** Energía residual de la interferencia, calculada dentro de una ventana de **100 Hz** centrada en la frecuencia de la interferencia.
+- **E_residual:** Energía residual de la interferencia, calculada dentro de una ventana de **100 Hz** centrada en la frecuencia de la interferencia. La ventana de 100 Hz deberá centrarse en la frecuencia estimada automáticamente mediante DBSCAN durante la Etapa 3.
 - **R:** Indicador de desempeño definido como:
 
 $$
