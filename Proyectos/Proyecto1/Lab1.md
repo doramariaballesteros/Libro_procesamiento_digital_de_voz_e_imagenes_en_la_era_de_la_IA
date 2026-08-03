@@ -99,8 +99,6 @@ $$
 R=\frac{E_{\text{residual}}}{E_{\text{voz}}}
 $$
 
-📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía espectral conservada fuera de la banda de interferencia y, por tanto, mejor será el desempeño de la técnica implementada.
-
 
 > 💡 **Ejemplo**
 >
@@ -150,7 +148,7 @@ Una vez calculados estos indicadores, los estudiantes deberán:
 3. Seleccionar la alternativa con mejor desempeño.
 4. Justificar técnicamente la decisión utilizando los resultados obtenidos.
 
-> 📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía de la voz y, por tanto, mejor será el desempeño de la técnica implementada.
+📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía de la voz y, por tanto, mejor será el desempeño de la técnica implementada.
 
 ---
 
