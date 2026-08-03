@@ -117,8 +117,7 @@ $$
 > y se define como:
 >
 $$
-E_{\text{residual}}
- =
+E_{\text{residual}}=
  \sum_{t}
  \sum_{f=1750}^{1850}
  S(t,f)
@@ -126,9 +125,9 @@ $$
 >
 > - La **energía conservada de la señal** corresponderá a toda la energía espectral ubicada **fuera de esa ventana**, es decir:
 >
+>
 $$
-E_{\text{voz}}
-=
+E_{\text{voz}}=
 \sum_{t}
 \sum_{f\notin[1750,1850]}
 S(t,f)
