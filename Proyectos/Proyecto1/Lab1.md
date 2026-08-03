@@ -99,7 +99,7 @@ $$
 R=\frac{E_{\text{residual}}}{E_{\text{voz}}}
 $$
 
-> 📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía espectral conservada fuera de la banda de interferencia y, por tanto, mejor será el desempeño de la técnica implementada.
+📌 **Interpretación:** Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía espectral conservada fuera de la banda de interferencia y, por tanto, mejor será el desempeño de la técnica implementada.
 
 
 > 💡 **Ejemplo**
@@ -110,37 +110,37 @@ $$
 >
 > - La **energía residual de la interferencia** se calculará sobre una ventana de **100 Hz** centrada en dicha frecuencia, es decir:
 >
-> $$
-> 1750 \leq f \leq 1850\ \text{Hz}
-> $$
+$$
+1750 \leq f \leq 1850\ \text{Hz}
+$$
 >
 > y se define como:
 >
-> $$
-> E_{\text{residual}}
-> =
-> \sum_{t}
-> \sum_{f=1750}^{1850}
-> S(t,f)
-> $$
+$$
+E_{\text{residual}}
+ =
+ \sum_{t}
+ \sum_{f=1750}^{1850}
+ S(t,f)
+$$
 >
 > - La **energía conservada de la señal** corresponderá a toda la energía espectral ubicada **fuera de esa ventana**, es decir:
 >
-> $$
-> E_{\text{voz}}
-> =
-> \sum_{t}
-> \sum_{f\notin[1750,1850]}
-> S(t,f)
-> $$
+$$
+E_{\text{voz}}
+=
+\sum_{t}
+\sum_{f\notin[1750,1850]}
+S(t,f)
+$$
 >
 > Finalmente, el indicador de desempeño se calcula como:
 >
-> $$
-> R=
-> \frac{E_{\text{residual}}}
-> {E_{\text{voz}}}
-> $$
+$$
+R=
+\frac{E_{\text{residual}}}
+{E_{\text{voz}}}
+$$
 >
 > Entre menor sea el valor de **R**, menor será la energía residual de la interferencia con respecto a la energía espectral conservada y, por tanto, mejor será el desempeño de la técnica implementada.
 
