@@ -166,7 +166,7 @@ Cada grupo deberá entregar:
 
 # 📝 Rúbrica de evaluación
 
-### 🎛️ Criterio 1. Aplicación de filtros digitales (500 puntos)
+### 🎛️ Criterio 1. Aplicación de filtros digitales para la eliminación de ruido tonal presente en señal de voz (500 puntos)
 
 | Acción observable | Insuficiente (0–200) | En proceso (200–350) | Sobresaliente (350–500) |
 |:---|:---|:---|:---|
@@ -174,7 +174,7 @@ Cada grupo deberá entregar:
 | Diseña un filtro IIR. | No lo diseña o presenta errores que impiden su funcionamiento. | Diseña el filtro, pero con parámetros parcialmente correctos o insuficientemente justificados. | Diseña correctamente el filtro y justifica técnicamente los parámetros seleccionados. |
 | Analiza las ventajas y limitaciones de ambas soluciones. | No realiza el análisis o este es incorrecto. | Presenta un análisis parcial o superficial. | Presenta un análisis completo, correcto y sustentado técnicamente. |
 
-### 🤖 Criterio 2. Aplicación de Inteligencia Artificial (500 puntos)
+### 🤖 Criterio 2. Aplicación de Inteligencia Artificial para la eliminación de ruido tonal presente en señal de voz  (500 puntos)
 
 | Acción observable | Insuficiente (0–200) | En proceso (200–350) | Sobresaliente (350–500) |
 |:---|:---|:---|:---|
@@ -182,7 +182,7 @@ Cada grupo deberá entregar:
 | Localiza automáticamente la interferencia. | No identifica la interferencia. | Localiza parcialmente la interferencia o presenta errores en la estimación de la frecuencia. | Localiza correctamente la interferencia y estima adecuadamente su frecuencia. |
 | Utiliza la frecuencia estimada para apoyar el diseño del filtro. | No utiliza la información obtenida por IA. | Utiliza parcialmente la información obtenida. | Integra correctamente la información obtenida mediante IA en el diseño del filtro. |
 
-### 📊 Criterio 3. Evaluación y selección de la mejor solución (500 puntos)
+### 📊 Criterio 3. Evaluación y selección de la mejor solución de eliminación de ruido tonal presente en señal de voz  (500 puntos)
 
 | Acción observable | Insuficiente (0–200) | En proceso (200–350) | Sobresaliente (350–500) |
 |:---|:---|:---|:---|
