@@ -2,9 +2,11 @@
 
 > **Repositorio oficial del libro**
 >
-> **Procesamiento Digital de Voz e Imágenes en la Era de la Inteligencia Artificial**  
-> **Dora María Ballesteros**  
-> **Editorial Redipe, 2026**
+>**Dora María Ballesteros**  
+> Primera edición, 2026  
+ >ISBN: 978-1-957395-68-5
+
+[![Libro](https://img.shields.io/badge/📘_LIBRO-Consultar_en_REDipe-blue)]([AQUÍ_VA_EL_LINK_DEL_LIBRO](https://editorial.redipe.org/index.php/1/catalog/book/260))
 
 > **📌 Nota:** Este repositorio corresponde al libro actualmente **en proceso de evaluación editorial**. La información bibliográfica definitiva (ISBN y datos de publicación) se actualizará una vez finalice el proceso editorial.
 
