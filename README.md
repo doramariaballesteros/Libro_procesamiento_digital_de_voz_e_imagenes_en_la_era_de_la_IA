@@ -49,7 +49,6 @@ La carpeta `Proyectos/` contiene los proyectos propuestos a lo largo del libro, 
 
 La carpeta `figures/` contiene una selección de las figuras utilizadas en el libro en alta resolución.
 
-> **Nota:** Los notebooks reutilizan los mismos conjuntos de **audios e imágenes** en diferentes capítulos. Por este motivo, los recursos se organizan en dos carpetas principales **(Audio e Imagenes)**, evitando la duplicación de archivos y facilitando su reutilización a lo largo del libro.
 ---
 # 🎙️ Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
 
