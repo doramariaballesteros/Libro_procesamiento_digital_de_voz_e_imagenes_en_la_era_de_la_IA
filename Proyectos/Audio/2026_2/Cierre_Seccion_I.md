@@ -4,11 +4,9 @@ Querido estudiante:
 
 Hemos culminado la primera sección del curso **Procesamiento Digital de Señales** y, a manera de reflexión, quiero invitarte a mirar por un momento el camino que recorrimos.
 
-Comenzamos aprendiendo diferentes métodos para el procesamiento digital de audio. Sin embargo, conocer una técnica y saber implementarla no era nuestro objetivo final. Por eso, después analizamos un **caso de estudio**, en el que pudimos observar cómo diferentes alternativas pueden resolver un mismo problema y, sobre todo, cómo sus resultados pueden compararse objetivamente para tomar una decisión.
+Comenzamos **aprendiendo diferentes métodos** para el procesamiento digital de audio (Capitulo 1). Sin embargo, conocer una técnica y saber implementarla no era nuestro objetivo final. Por eso, después analizamos un **caso de estudio**, en el que pudimos observar cómo diferentes alternativas pueden resolver un mismo problema tanto con **filtros digitales** (Capitulo 2) como con **IA** (Capitulo 3) y, sobre todo, cómo sus resultados pueden compararse objetivamente para tomar una decisión.
 
-Luego llegó tu turno. 🧪
-
-A través del proyecto tuviste que enfrentarte a un problema nuevo, formular hipótesis, diseñar una estrategia, experimentar, comparar alternativas y utilizar los resultados obtenidos para sustentar tus decisiones. En ese proceso pudiste apoyarte en herramientas de Inteligencia Artificial, pero las decisiones sobre **qué hacer, cómo organizar el experimento, qué comparar y cómo interpretar los resultados** seguían estando en tus manos.
+Luego llegó tu turno (proyecto del primer corte). 🧪 Tuviste que enfrentarte a un problema real, formular hipótesis, diseñar una estrategia, experimentar, comparar alternativas y utilizar los resultados obtenidos para sustentar tus decisiones. Y tuviste que enfrentarte a preguntas como: **qué hacer, cómo organizar el experimento, qué comparar y cómo interpretar los resultados**.
 
 Después de haber construido tu propia solución, pudiste conocer una **solución destacada desarrollada por otros estudiantes**. Su propósito no es mostrarte *la solución correcta*, porque un problema de ingeniería puede tener diferentes formas de ser abordado. La invitación es a contrastarla con tu propio trabajo: identificar qué hicieron diferente, qué decisiones tomaron, qué evidencias utilizaron y qué elementos podrías incorporar en futuros experimentos.
 
