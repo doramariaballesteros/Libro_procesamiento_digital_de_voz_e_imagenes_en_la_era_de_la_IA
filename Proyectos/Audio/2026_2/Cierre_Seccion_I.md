@@ -19,11 +19,14 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
 ## 🔄 Nuestro recorrido
 
 <p align="center">
-  <img src="recorrido_aprendizaje_seccion_I.png"
+  <img src="Proyectos/Audio/2026_2/recorrido_aprendizaje_seccion_I.png"
        alt="Nuestro recorrido de aprendizaje en la Sección I"
        width="100%">
 </p>
 
+<p align="center">
+  <em>Figura. Nuestro recorrido de aprendizaje en la Sección I: del método a la toma de decisiones.</em>
+</p>
 ---
 
 Espero que al terminar esta sección te lleves algo más que un conjunto de métodos para procesar señales de audio. Me interesa que empieces a desarrollar una forma de enfrentarte a los problemas: **observar antes de decidir, formular preguntas, experimentar, comparar y dejar que la evidencia te ayude a escoger el camino.**
