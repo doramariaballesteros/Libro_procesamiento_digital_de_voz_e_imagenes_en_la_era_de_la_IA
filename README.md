@@ -47,7 +47,7 @@ La carpeta `Proyectos/` contiene los proyectos propuestos a lo largo del libro, 
 
 ## 🖼️ Figuras
 
-La carpeta `figures/` contiene una selección de las figuras utilizadas en el libro en alta resolución.
+La carpeta `Figuras/` contiene una selección de las figuras utilizadas en el libro en alta resolución.
 
 ---
 # 🎙️ Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
