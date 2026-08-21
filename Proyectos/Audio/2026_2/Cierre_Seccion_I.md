@@ -6,13 +6,14 @@ Hemos culminado la primera sección del curso **Procesamiento Digital de Señale
 
 Comenzamos **aprendiendo diferentes métodos** para el procesamiento digital de audio (Capitulo 1). Sin embargo, conocer una técnica y saber implementarla no era nuestro objetivo final. Por eso, después analizamos un **caso de estudio**, en el que pudimos observar cómo diferentes alternativas pueden resolver un mismo problema tanto con **filtros digitales** (Capitulo 2) como con **IA** (Capitulo 3) y, sobre todo, cómo sus resultados pueden compararse objetivamente para tomar una decisión.
 
-Luego llegó tu turno (proyecto del primer corte). 🧪 Tuviste que enfrentarte a un problema real, formular hipótesis, diseñar una estrategia, experimentar, comparar alternativas y utilizar los resultados obtenidos para sustentar tus decisiones. Y tuviste que enfrentarte a preguntas como: **qué hacer, cómo organizar el experimento, qué comparar y cómo interpretar los resultados**.
+Luego llegó tu turno con el proyecto del primer corte 🛠️. Tuviste que enfrentarte a un problema real, formular hipótesis, diseñar una estrategia, experimentar, comparar alternativas y utilizar los resultados obtenidos para sustentar tus decisiones. Y tuviste que enfrentarte a preguntas como: **qué hacer, cómo organizar el experimento, qué comparar y cómo interpretar los resultados**.
 
 Después de haber construido tu propia solución, pudiste conocer una **solución destacada desarrollada por otros estudiantes**. Su propósito no es mostrarte *la solución correcta*, porque un problema de ingeniería puede tener diferentes formas de ser abordado. La invitación es a contrastarla con tu propio trabajo: identificar qué hicieron diferente, qué decisiones tomaron, qué evidencias utilizaron y qué elementos podrías incorporar en futuros experimentos.
 
 Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero esta vez desde una mirada crítica: no para recordar valores o fragmentos de código, sino para comprender la lógica que existe detrás de las decisiones tomadas.
 
 ---
+
 
 ## 🔄 Nuestro recorrido
 
