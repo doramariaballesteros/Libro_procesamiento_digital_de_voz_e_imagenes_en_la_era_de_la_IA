@@ -19,13 +19,9 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
 ## 🔄 Nuestro recorrido
 
 <p align="center">
-  <img src="Figuras/recorrido_aprendizaje_seccion_I.png"
+  <img src="recorrido_aprendizaje_seccion_I.png"
        alt="Nuestro recorrido de aprendizaje en la Sección I"
        width="100%">
-</p>
-
-<p align="center">
-  <em>Figura. Nuestro recorrido de aprendizaje en la Sección I: del método a la toma de decisiones.</em>
 </p>
 
 ---
