@@ -2,7 +2,7 @@
 
 El propósito de este quiz es analizar las decisiones tomadas durante el desarrollo del proyecto y comprender la lógica experimental utilizada para seleccionar la mejor solución. 
 
-A partir de la solución destacada del proyecto **Reducción de una Interferencia Tonal en una Señal de Voz**, responde las siguientes preguntas.
+A partir de la **Solución_destacada_2026_II** del proyecto *Reducción de una Interferencia Tonal en una Señal de Voz*, responde las siguientes preguntas.
 **Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
 
 ---
