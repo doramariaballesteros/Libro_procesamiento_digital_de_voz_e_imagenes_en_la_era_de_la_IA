@@ -11,10 +11,9 @@
 
 🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/260)**
 
-Este repositorio contiene los notebooks, ejemplos, imágenes y archivos de audio utilizados a lo largo del libro.
 
-> **📌 Nota:** Este repositorio corresponde al libro actualmente **en proceso de evaluación editorial**. La información bibliográfica definitiva (ISBN y datos de publicación) se actualizará una vez finalice el proceso editorial.
 
+> **📌 Nota: Este repositorio contiene los notebooks, ejemplos, imágenes y archivos de audio utilizados a lo largo del libro.** 
 ---
 
 ## 📖 Sobre este repositorio
