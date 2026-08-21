@@ -24,6 +24,8 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
        width="100%">
 </p>
 
+![Nuestro recorrido de aprendizaje](recorrido_aprendizaje_seccion_I.png)
+
 <p align="center">
   <em>Figura. Nuestro recorrido de aprendizaje en la Sección I: del método a la toma de decisiones.</em>
 </p>
