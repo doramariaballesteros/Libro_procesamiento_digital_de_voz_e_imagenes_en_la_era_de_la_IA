@@ -18,12 +18,6 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
 
 ## 🔄 Nuestro recorrido
 
-<p align="center">
-  <img src="Proyectos/Audio/2026_2/recorrido_aprendizaje_seccion_I.png"
-       alt="Nuestro recorrido de aprendizaje en la Sección I"
-       width="100%">
-</p>
-
 ![Nuestro recorrido de aprendizaje](recorrido_aprendizaje_seccion_I.png)
 
 <p align="center">
