@@ -3,7 +3,7 @@
 > **Repositorio oficial del libro**
 > Dora María Ballesteros  
 > Primera edición, 2026  
->ISBN: 978-1-957395-68-5
+> ISBN: 978-1-957395-68-5
 
 >🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/260)**
 
