@@ -33,6 +33,18 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 | | **5** | ✂️ **Segmentación de Imágenes con Técnicas Clásicas de PDI** | Aplicación de técnicas clásicas de segmentación utilizando máscaras binarias, contornos, operaciones morfológicas y análisis de centroides. | [Abrir](Capitulo_5.ipynb) | [Imágenes](Imagenes/) |
 | | **6** | 🧠 **Segmentación Automática con Inteligencia Artificial** | Desarrollo de un modelo basado en la arquitectura U-Net para la segmentación automática de imágenes mediante técnicas modernas de aprendizaje profundo. | [Abrir](Capitulo_6.ipynb) | [Imágenes](Imagenes/) |
 
+## 🎧 Audio
+
+La carpeta `Audio/` contiene los archivos de audio utilizados en la **Sección I** del libro para desarrollar los ejemplos, experimentos y proyectos propuestos.
+
+## 🖼️ Imágenes
+
+La carpeta `Imagenes/` contiene los archivos de imagen utilizados en la **Sección II** del libro para desarrollar los ejemplos, experimentos y proyectos propuestos.
+
+## 🧩 Proyectos
+
+La carpeta `Proyectos/` contiene los proyectos propuestos a lo largo del libro, organizados por sección, para aplicar de manera práctica los conceptos desarrollados.
+
 ## 🖼️ Figuras
 
 La carpeta `figures/` contiene una selección de las figuras utilizadas en el libro en alta resolución.
