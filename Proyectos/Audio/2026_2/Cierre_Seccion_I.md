@@ -17,7 +17,7 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
 
 ## 🔄 Nuestro recorrido
 
-![Nuestro recorrido de aprendizaje](recorrido_aprendizaje_seccion_I.png)
+![Nuestro recorrido de aprendizaje](seccion_I.png)
 
 <p align="center">
   <em>Figura. Nuestro recorrido de aprendizaje en la Sección I: del método a la toma de decisiones.</em>
