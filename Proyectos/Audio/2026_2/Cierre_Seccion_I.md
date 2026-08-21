@@ -25,9 +25,9 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
 </p>
 ---
 
-Espero que al terminar esta sección te lleves algo más que un conjunto de métodos para procesar señales de audio. Me interesa que empieces a desarrollar una forma de enfrentarte a los problemas: **observar antes de decidir, formular preguntas, experimentar, comparar y dejar que la evidencia te ayude a escoger el camino.**
+Espero que al terminar la Sección I - Audio, te lleves algo más que un conjunto de métodos para procesar señales de audio. Me interesa que empieces a desarrollar una forma de enfrentarte a los problemas: **observar antes de decidir, formular preguntas, experimentar, comparar y dejar que la evidencia te ayude a escoger el camino.**
 
-En la siguiente sección cambiaremos las señales de audio por **imágenes** y aparecerán nuevos métodos y nuevos problemas. Pero hay algo que no debería cambiar:
+En la siguiente sección cambiaremos las señales de audio por **Imágenes** y aparecerán nuevos métodos y nuevos problemas. Pero hay algo que no debería cambiar:
 
 > **Antes de preguntarte qué método utilizar, pregúntate qué problema quieres resolver, cómo puedes comprobar que tu solución funciona y qué evidencia necesitas para sustentar tu decisión.**
 
