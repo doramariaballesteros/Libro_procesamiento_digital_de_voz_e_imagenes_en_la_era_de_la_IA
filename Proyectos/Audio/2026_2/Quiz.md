@@ -1,8 +1,9 @@
 # 🧠 Quiz — Solución destacada
 
-Después de revisar la solución destacada del proyecto **Reducción de una Interferencia Tonal en una Señal de Voz**, responde las siguientes preguntas.
+El propósito de este quiz es analizar las decisiones tomadas durante el desarrollo del proyecto y comprender la lógica experimental utilizada para seleccionar la mejor solución. 
 
-El propósito de este quiz es analizar las decisiones tomadas durante el desarrollo del proyecto y comprender la lógica experimental utilizada para seleccionar la mejor solución. **Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
+A partir de la solución destacada del proyecto **Reducción de una Interferencia Tonal en una Señal de Voz**, responde las siguientes preguntas.
+**Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
 
 ---
 
@@ -43,9 +44,9 @@ Después de incorporar el resultado obtenido mediante DBSCAN, se evaluaron cuatr
 
 ¿Qué ventaja experimental ofrece esta comparación?
 
-- [ ] a) Permite analizar simultáneamente el efecto del tipo de filtro y del uso de la frecuencia estimada mediante DBSCAN.
+- [ ] a) Permite eliminar la necesidad de evaluar la señal original.
 - [ ] b) Garantiza que alguna alternativa basada en IA sea la mejor.
-- [ ] c) Permite eliminar la necesidad de evaluar la señal original.
+- [ ] c) Permite analizar simultáneamente el efecto del tipo de filtro y del uso de la frecuencia estimada mediante DBSCAN.
 - [ ] d) Demuestra que DBSCAN siempre mejora cualquier filtro.
 
 ---
