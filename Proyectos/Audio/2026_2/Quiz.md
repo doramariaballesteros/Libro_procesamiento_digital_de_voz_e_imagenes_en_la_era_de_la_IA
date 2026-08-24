@@ -13,12 +13,12 @@ Tiempo: 60  minutos
 
 ### 1. Análisis inicial
 
-El grupo analizó la señal en el **dominio del tiempo**, mediante la **FFT** y mediante el **espectrograma** antes de diseñar los filtros.
+En el análisis presentado se incluyó **dominio del tiempo**, espectral con la **FFT** y tiempo-frecuencia mediante **espectrograma**, antes de diseñar los filtros.
 
 ¿Cuál es la principal ventaja de utilizar las tres representaciones?
 
 - [ ] a) Permiten calcular tres valores diferentes de la frecuencia de interferencia.
-- [ ] b) Aportan evidencias complementarias sobre la naturaleza, frecuencia y permanencia temporal de la interferencia.
+- [ ] b) Aporta información complementaria en relación al inicio y duración del ruido, frecuencia y relación tiempo-frecuencia.
 - [ ] c) Permiten determinar directamente cuál filtro tendrá menor valor de R.
 - [ ] d) Son necesarias para poder aplicar un filtro FIR.
 
@@ -26,12 +26,12 @@ El grupo analizó la señal en el **dominio del tiempo**, mediante la **FFT** y 
 
 ### 2. Integración de Inteligencia Artificial
 
-Mediante el análisis manual se estimó la interferencia en **389 Hz**, mientras que DBSCAN obtuvo una frecuencia de **387,60 Hz**.
+A partir de un análisis manual se indentificó que el ruido tonal se ubicaba en **389 Hz**, mientras que con DBSCAN se obtuvo que estaba ubicado en la frecuencia de **387,60 Hz**.
 
 ¿Qué hicieron los autores con este nuevo resultado?
 
-- [ ] a) Sustituyeron el filtrado digital por DBSCAN.
-- [ ] b) Lo utilizaron únicamente para verificar la estimación manual.
+- [ ] a) Sustituyeron la etapa de filtrado con filtros FIR e IIR con el bloque DBSCAN.
+- [ ] b) Utilizaron DBSCAN únicamente para verificar la ubicación obtenida de forma manual y calcular un error porcentual.
 - [ ] c) Rediseñaron los filtros utilizando la frecuencia obtenida mediante DBSCAN.
 - [ ] d) Modificaron la señal original para que coincidiera con 387,60 Hz.
 
@@ -39,18 +39,18 @@ Mediante el análisis manual se estimó la interferencia en **389 Hz**, mientras
 
 ### 3. Diseño experimental
 
-Después de incorporar el resultado obtenido mediante DBSCAN, se evaluaron cuatro alternativas:
+En el artículo presentaron cuatro soluciones, así:
 
 - FIR Blackman manual.
 - IIR Butterworth manual.
 - FIR Blackman con DBSCAN.
 - IIR Butterworth con DBSCAN.
 
-¿Qué ventaja experimental ofrece esta comparación?
+¿Qué ventaja se obtiene al diseñar el experimento de esta forma?
 
 - [ ] a) Permite eliminar la necesidad de evaluar la señal original.
 - [ ] b) Garantiza que alguna alternativa basada en IA sea la mejor.
-- [ ] c) Permite analizar simultáneamente el efecto del tipo de filtro y del uso de la frecuencia estimada mediante DBSCAN.
+- [ ] c) Permite analizar simultáneamente el efecto del tipo de filtro (FIR/IIR) y la frecuencia identificada del tono (manual/DBSCAN).
 - [ ] d) Demuestra que DBSCAN siempre mejora cualquier filtro.
 
 ---
@@ -72,7 +72,7 @@ Si una solución obtiene un valor de **R menor** que otra, ¿cuál es la interpr
 
 - [ ] a) Conservó necesariamente más energía total.
 - [ ] b) Eliminó completamente la interferencia.
-- [ ] c) Presenta una mejor relación entre la energía residual de la interferencia y la energía de señal conservada.
+- [ ] c) Elimina de mejor manera el tono sin sacrificar significativamente la energía de la señal de voz.
 - [ ] d) Produce una señal de mayor amplitud.
 
 ---
@@ -86,26 +86,11 @@ Para el filtro FIR Blackman se obtuvieron aproximadamente los siguientes resulta
 | FIR Blackman manual | 0,06561 |
 | FIR Blackman con DBSCAN | **0,06412** |
 
-Un estudiante afirma:
-
-> *“Como la diferencia entre los dos valores es pequeña, no podemos concluir que utilizar DBSCAN haya aportado al resultado.”*
-
-**¿Estás de acuerdo con esta afirmación? Justifica brevemente tu respuesta a partir de los resultados del experimento.**
-
-<br>
-
-**Respuesta:**
-
-____________________________________________________________________
-
-____________________________________________________________________
-
-____________________________________________________________________
-
----
-
-## 💡 Para reflexionar
-
 Más allá de identificar cuál alternativa obtuvo el mejor resultado, piensa en la metodología utilizada durante el proyecto:
 
 **¿Qué elementos permitieron que la selección de la solución final estuviera sustentada en evidencia experimental y no solamente en una apreciación subjetiva?**
+
+---
+
+
+
