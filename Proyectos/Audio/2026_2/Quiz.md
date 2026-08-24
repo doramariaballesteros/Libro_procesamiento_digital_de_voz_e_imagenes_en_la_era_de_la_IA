@@ -4,6 +4,9 @@ Esta es la última etapa del proceso de aprendizaje de la Sección I.  Es un qui
 Su propósito es generar reflexión sobre una de las soluciones presentadas en el curso, considerada como una solución destacada.
 
 ---
+
+### Instrucciones Generales:
+
 A partir de **Solución_destacada_2026_II** del proyecto *Reducción de una Interferencia Tonal en una Señal de Voz*, responde las siguientes preguntas.
 **Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
 
