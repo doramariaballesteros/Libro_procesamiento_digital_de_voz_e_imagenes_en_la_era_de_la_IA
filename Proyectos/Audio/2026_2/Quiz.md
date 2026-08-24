@@ -9,6 +9,8 @@ A partir de **Solución_destacada_2026_II** del proyecto *Reducción de una Inte
 
 Tiempo: 60  minutos
 
+---
+
 ### 1. Análisis inicial
 
 El grupo analizó la señal en el **dominio del tiempo**, mediante la **FFT** y mediante el **espectrograma** antes de diseñar los filtros.
