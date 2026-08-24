@@ -7,7 +7,7 @@ Su propósito es generar reflexión sobre una de las soluciones presentadas en e
 A partir de **Solución_destacada_2026_II** del proyecto *Reducción de una Interferencia Tonal en una Señal de Voz*, responde las siguientes preguntas.
 **Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
 
-Tiempo: 60  minutos
+⏱️ **Tiempo disponible: 60 minutos**
 
 ---
 
