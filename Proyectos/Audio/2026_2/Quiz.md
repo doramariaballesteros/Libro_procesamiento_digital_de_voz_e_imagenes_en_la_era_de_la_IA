@@ -92,5 +92,19 @@ Más allá de identificar cuál alternativa obtuvo el mejor resultado, piensa en
 
 ---
 
+## 📊 Rúbrica de evaluación — Quiz
+
+**Resultado de Aprendizaje (RA 1.1):**  
+Comprende las particularidades del filtrado digital mediante filtros FIR e IIR en términos de parámetros de diseño, respuesta al impulso, función de transferencia, polos y ceros, y respuesta en frecuencia.
+
+> En este quiz se evalúan específicamente aspectos relacionados con **parámetros de diseño y respuesta en frecuencia**.
+
+| Pregunta | Acción observable | Insuficiente (0) | En proceso (300) | Excelente (500) |
+|---|---|---|---|---|
+| **1. Análisis inicial** | Identifica la principal ventaja de utilizar diferentes representaciones de la señal como insumo para seleccionar los parámetros de diseño de los filtros. | Identifica incorrectamente la respuesta o no la contesta. | Identifica correctamente la respuesta, pero la justificación es incorrecta o incompleta. | Identifica correctamente la respuesta y la justificación es correcta y completa. |
+| **2. Integración de Inteligencia Artificial** | Identifica el uso del resultado obtenido mediante DBSCAN en el proceso de diseño de los filtros. | Identifica incorrectamente la respuesta o no la contesta. | Identifica correctamente la respuesta, pero la justificación es incorrecta o incompleta. | Identifica correctamente la respuesta y la justificación es correcta y completa. |
+| **3. Diseño experimental** | Identifica la ventaja de diseñar el experimento considerando las cuatro alternativas de filtrado. | Identifica incorrectamente la respuesta o no la contesta. | Identifica correctamente la respuesta, pero la justificación es incorrecta o incompleta. | Identifica correctamente la respuesta y la justificación es correcta y completa. |
+| **4. Criterio de comparación** | Identifica el significado de un valor bajo de R en relación con el desempeño del filtro diseñado. | Identifica incorrectamente la respuesta o no la contesta. | Identifica correctamente la respuesta, pero la justificación es incorrecta o incompleta. | Identifica correctamente la respuesta y la justificación es correcta y completa. |
+| **5. Toma de decisiones** | Identifica los elementos que sustentan la selección de la mejor solución a partir de evidencia experimental. | Identifica incorrectamente la respuesta o no la contesta. | Identifica correctamente la respuesta, pero la justificación es incorrecta o incompleta. | Identifica correctamente la respuesta y la justificación es correcta y completa. |
 
 
