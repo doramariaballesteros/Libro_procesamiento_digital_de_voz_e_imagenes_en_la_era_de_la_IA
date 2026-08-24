@@ -1,11 +1,13 @@
 # 🧠 Quiz — Solución destacada
 
-El propósito de este quiz es analizar las decisiones tomadas durante el desarrollo del proyecto y comprender la lógica experimental utilizada para seleccionar la mejor solución. 
-
-A partir de la **Solución_destacada_2026_II** del proyecto *Reducción de una Interferencia Tonal en una Señal de Voz*, responde las siguientes preguntas.
-**Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
+Esta es la última etapa del proceso de aprendizaje de la Sección I.  Es un quiz de retroalimentación.  
+Su propósito es generar reflexión sobre una de las soluciones presentadas en el curso, considerada como una solución destacada.
 
 ---
+A partir de **Solución_destacada_2026_II** del proyecto *Reducción de una Interferencia Tonal en una Señal de Voz*, responde las siguientes preguntas.
+**Se debe justificar la respuesta, mas allá de simplemente seleccionar una opción**.
+
+Tiempo: 60  minutos
 
 ### 1. Análisis inicial
 
