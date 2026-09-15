@@ -8,6 +8,7 @@
 > - 🔇 Capítulo 2. Eliminación de Ruido con Filtros Digitales
 > - 🤖 Capítulo 3. Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral
 
+Este proyecto busca integrar los conocimientos desarrollados en los Capítulos 2 y 3 del libro mediante un caso de estudio donde el estudiante no solo implementa diferentes soluciones, sino que las compara objetivamente y selecciona la alternativa con mejor desempeño.
 ---
 
 # 📖 Contexto
@@ -172,7 +173,7 @@ Cada grupo deberá entregar:
 
 > **Aplica y evalúa técnicas clásicas de filtrado digital y herramientas de Inteligencia Artificial para la reducción de ruido y/o el reconocimiento de patrones en señales de audio, utilizando criterios objetivos de desempeño.**
 
-Este proyecto busca integrar los conocimientos desarrollados en los Capítulos 2 y 3 del libro mediante un caso de estudio donde el estudiante no solo implementa diferentes soluciones, sino que las compara objetivamente y selecciona la alternativa con mejor desempeño.
+
 
 ### 🎛️ Criterio 1. Aplicación de filtros digitales para la eliminación de ruido tonal presente en señal de voz (500 puntos)
 
