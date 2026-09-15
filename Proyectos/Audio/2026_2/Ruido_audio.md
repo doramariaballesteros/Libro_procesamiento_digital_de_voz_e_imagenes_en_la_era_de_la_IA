@@ -9,6 +9,7 @@
 > - 🤖 Capítulo 3. Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral
 
 Este proyecto busca integrar los conocimientos desarrollados en los Capítulos 2 y 3 del libro mediante un caso de estudio donde el estudiante no solo implementa diferentes soluciones, sino que las compara objetivamente y selecciona la alternativa con mejor desempeño.
+
 ---
 
 # 📖 Contexto
