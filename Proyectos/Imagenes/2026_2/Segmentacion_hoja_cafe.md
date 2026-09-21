@@ -91,13 +91,12 @@ Antes de realizar el entrenamiento se deberán separar las imágenes que serán 
 
 Las 50 parejas imagen–máscara se dividirán en:
 
-\[
-40\; \text{parejas} \rightarrow \text{Entrenamiento}
-\]
-
-\[
-10\; \text{parejas} \rightarrow \text{Prueba}
-\]
+$$
+\begin{aligned}
+40\ \text{parejas} &\rightarrow \text{Entrenamiento} \\
+10\ \text{parejas} &\rightarrow \text{Prueba}
+\end{aligned}
+$$
 
 El conjunto de prueba deberá contener:
 
