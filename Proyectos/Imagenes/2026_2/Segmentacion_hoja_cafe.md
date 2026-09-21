@@ -74,9 +74,9 @@ También podrá utilizarse otra herramienta equivalente.
 
 Al finalizar esta etapa deberán existir **50 parejas imagen–máscara**:
 
-\[
-(I_i,GT_i), \qquad i=1,\ldots,50
-\]
+$$
+(I_i, GT_i), \qquad i = 1, \ldots, 50
+$$
 
 donde:
 
