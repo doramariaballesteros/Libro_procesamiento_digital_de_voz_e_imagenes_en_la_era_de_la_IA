@@ -17,17 +17,17 @@ Imaginemos que queremos desarrollar una solución capaz de **capturar la foto de
 
 Antes de realizar esta clasificación, es necesario identificar qué región de la foto corresponde realmente a la hoja. La imagen puede contener otros elementos en el fondo que no aportan información sobre su estado y que podrían interferir en un análisis posterior.
 
-Por esta razón, el **primer paso consiste en segmentar la imagen**, separando la hoja -incluyendo sus manchas, lesiones e imperfecciones- del resto de la escena. El resultado esperado es una máscara que permita identificar los píxeles pertenecientes a la hoja y descartar aquellos correspondientes al fondo.
+Por esta razón, el **primer paso consiste en segmentar la imagen**, separando la hoja —incluyendo sus manchas, lesiones e imperfecciones— del resto de la escena. El resultado esperado es una máscara que permita identificar los píxeles pertenecientes a la hoja y descartar aquellos correspondientes al fondo.
 
 Este problema puede resolverse desde dos perspectivas. La primera utiliza **técnicas clásicas de Procesamiento Digital de Imágenes (PDI)**, en las cuales las reglas de segmentación son definidas explícitamente. La segunda utiliza **Inteligencia Artificial**, mediante una arquitectura **U-Net** que aprende a segmentar la hoja a partir de imágenes y máscaras de referencia (*Ground Truth*).
 
-En este proyecto se implementarán y compararán ambas estrategias utilizando imágenes del dataset **RoCoLe (*Robusta Coffee Leaf Images Dataset*)**.
+En este proyecto implementarás y compararás ambas estrategias utilizando imágenes del dataset **RoCoLe (*Robusta Coffee Leaf Images Dataset*)**.
 
 ---
 
 # 📂 1. Dataset
 
-Para el desarrollo del proyecto se utilizará el dataset:
+Para el desarrollo del proyecto utiliza el dataset:
 
 **RoCoLe – Robusta Coffee Leaf Images Dataset**
 
@@ -35,7 +35,7 @@ Disponible en Kaggle:
 
 🔗 https://www.kaggle.com/datasets/nirmalsankalana/rocole-a-robusta-coffee-leaf-images-dataset
 
-En este proyecto trabajaremos únicamente con imágenes pertenecientes a tres categorías:
+Trabaja únicamente con imágenes pertenecientes a tres categorías:
 
 - `coffee__healthy`
 - `coffee__red_spider_mite`
@@ -47,11 +47,11 @@ Aunque las imágenes pertenecen a diferentes categorías, **el objetivo de este 
 
 # 🌿 2. Selección de imágenes
 
-Cada grupo deberá seleccionar **50 imágenes** del dataset RoCoLe.
+Selecciona **50 imágenes** del dataset RoCoLe.
 
-La selección deberá ser aproximadamente balanceada entre las tres categorías, utilizando **16 o 17 imágenes de cada una**, hasta completar las 50 imágenes.
+Realiza una selección aproximadamente balanceada entre las tres categorías, utilizando **16 o 17 imágenes de cada una**, hasta completar las 50 imágenes.
 
-Además del balance entre categorías, se deberán seleccionar imágenes con diferentes características visuales, evitando construir un conjunto formado por imágenes demasiado similares.
+Además del balance entre categorías, selecciona imágenes con diferentes características visuales y evita construir un conjunto formado por imágenes demasiado similares.
 
 Las 50 imágenes seleccionadas constituirán el **dataset de trabajo** y deberán mantenerse durante todo el desarrollo del proyecto.
 
@@ -61,18 +61,16 @@ Las 50 imágenes seleccionadas constituirán el **dataset de trabajo** y deberá
 
 Para evaluar una segmentación necesitamos conocer previamente cuál sería el resultado esperado.
 
-Para **cada una de las 50 imágenes** se deberá construir una máscara de referencia o ***Ground Truth*** que identifique la región correspondiente a la hoja.
+Para **cada una de las 50 imágenes**, construye una máscara de referencia o ***Ground Truth*** que identifique la región correspondiente a la hoja.
 
-La máscara deberá conservar **toda la hoja**, incluyendo manchas, lesiones, cambios de color e imperfecciones, ya que estas características podrían contener información relevante para una futura clasificación de su estado de salud.
+La máscara debe conservar **toda la hoja**, incluyendo manchas, lesiones, cambios de color e imperfecciones, ya que estas características podrían contener información relevante para una futura clasificación de su estado de salud.
 
-Para eliminar el fondo y generar las máscaras puede utilizarse:
+Para eliminar el fondo y generar las máscaras utiliza:
 
 🔗 **iLoveIMG – Remove Background**  
 https://www.iloveimg.com/remove-background
 
-También podrá utilizarse otra herramienta equivalente.
-
-Al finalizar esta etapa deberán existir **50 parejas imagen–máscara**:
+Al finalizar esta etapa debes tener **50 parejas imagen–máscara**:
 
 $$
 (I_i, GT_i), \qquad i = 1, \ldots, 50
@@ -87,9 +85,9 @@ donde:
 
 # ✂️ 4. Partición del Dataset
 
-Antes de realizar el entrenamiento se deberán separar las imágenes que serán utilizadas para evaluar los diferentes métodos.
+Antes de realizar el entrenamiento, separa las imágenes que serán utilizadas para evaluar los diferentes métodos.
 
-Las 50 parejas imagen–máscara se dividirán en:
+Divide las 50 parejas imagen–máscara en:
 
 $$
 \begin{aligned}
@@ -98,61 +96,61 @@ $$
 \end{aligned}
 $$
 
-El conjunto de prueba deberá contener:
+El conjunto de prueba debe contener:
 
 - **4 imágenes** `coffee__healthy`
 - **3 imágenes** `coffee__red_spider_mite`
 - **3 imágenes** `coffee__rust`
 
-Las **10 imágenes de prueba deberán reservarse antes del entrenamiento** y no podrán ser utilizadas para entrenar la U-Net.
+Reserva las **10 imágenes de prueba antes del entrenamiento**. Estas imágenes no podrán utilizarse para entrenar la U-Net.
 
-Estas mismas 10 imágenes serán utilizadas posteriormente para evaluar los métodos clásicos de PDI, garantizando que todos los métodos sean comparados utilizando exactamente el mismo conjunto de prueba.
+Utiliza posteriormente estas mismas 10 imágenes para evaluar los métodos clásicos de PDI. De esta manera, todos los métodos serán comparados utilizando exactamente el mismo conjunto de prueba.
 
 ---
 
 # 🧠 5. Segmentación mediante U-Net
 
-Utilizando exclusivamente las **40 parejas imagen–máscara del conjunto de entrenamiento**, se deberá entrenar una arquitectura **U-Net** para realizar automáticamente la segmentación de las hojas.
+Utiliza exclusivamente las **40 parejas imagen–máscara del conjunto de entrenamiento** para entrenar una arquitectura **U-Net** que realice automáticamente la segmentación de las hojas.
 
-La entrada del modelo estará constituida por las imágenes originales y la salida esperada por sus correspondientes máscaras *Ground Truth*.
+Utiliza las imágenes originales como entrada del modelo y sus correspondientes máscaras *Ground Truth* como salida esperada.
 
-Una vez finalizado el entrenamiento, la U-Net deberá utilizarse para realizar la predicción sobre las **10 imágenes reservadas para prueba**.
+Una vez finalizado el entrenamiento, utiliza la U-Net para realizar la predicción sobre las **10 imágenes reservadas para prueba**.
 
-Para cada imagen se obtendrá:
+Para cada imagen obtendrás:
 
 $$
 I_i \rightarrow \text{U-Net} \rightarrow \widehat{GT}_{i,\text{U-Net}}
 $$
 
-Las 10 máscaras obtenidas deberán almacenarse para su posterior evaluación.
+Almacena las 10 máscaras obtenidas para su posterior evaluación.
 
 ---
 
 # 🖼️ 6. Segmentación mediante técnicas clásicas de PDI
 
-Las **mismas 10 imágenes reservadas para prueba** deberán segmentarse utilizando los tres métodos clásicos estudiados en el caso de estudio.
+Segmenta las **mismas 10 imágenes reservadas para prueba** utilizando los tres métodos clásicos estudiados en el caso de estudio.
 
 ## Método 1 – HSV
 
-Realizar la segmentación mediante una **máscara por color en el espacio HSV**, seleccionando los rangos de H, S y V apropiados para identificar la hoja.
+Realiza la segmentación mediante una **máscara por color en el espacio HSV**, seleccionando los rangos de H, S y V apropiados para identificar la hoja.
 
 ## Método 2 – HSV + Contornos
 
 A partir de la máscara HSV:
 
-1. Identificar los contornos externos.
-2. Calcular el área de los contornos encontrados.
-3. Seleccionar el contorno de mayor área.
-4. Construir la máscara correspondiente a la hoja.
+1. Identifica los contornos externos.
+2. Calcula el área de los contornos encontrados.
+3. Selecciona el contorno de mayor área.
+4. Construye la máscara correspondiente a la hoja.
 
 ## Método 3 – HSV + Morfología + Centroides
 
 A partir de la máscara HSV:
 
-1. Aplicar operaciones morfológicas para mejorar la máscara.
-2. Identificar los componentes resultantes.
-3. Analizar características como área y posición.
-4. Utilizar los centroides para seleccionar la región correspondiente a la hoja.
+1. Aplica operaciones morfológicas para mejorar la máscara.
+2. Identifica los componentes resultantes.
+3. Analiza características como área y posición.
+4. Utiliza los centroides para seleccionar la región correspondiente a la hoja.
 
 Al finalizar esta etapa, cada una de las 10 imágenes de prueba tendrá cuatro máscaras estimadas:
 
@@ -165,7 +163,7 @@ Al finalizar esta etapa, cada una de las 10 imágenes de prueba tendrá cuatro m
 
 # 📐 7. Evaluación mediante Intersection over Union (IoU)
 
-Cada máscara obtenida deberá compararse con su correspondiente máscara *Ground Truth* utilizando la métrica **Intersection over Union (IoU)**:
+Compara cada máscara obtenida con su correspondiente máscara *Ground Truth* utilizando la métrica **Intersection over Union (IoU)**:
 
 $$
 IoU =
@@ -178,20 +176,20 @@ donde:
 - $GT$ corresponde a la máscara *Ground Truth*.
 - $P$ corresponde a la máscara predicha por el método evaluado.
 - $GT \cap P$ representa la intersección entre ambas máscaras.
-- $GT \cup P$ representa su unión.
+- $GT \cup P$ representa la unión entre ambas máscaras.
 
 Un valor de **IoU cercano a 1** indica una alta coincidencia entre la segmentación obtenida y el *Ground Truth*, mientras que un valor cercano a **0** indica una baja coincidencia.
 
-Se deberá calcular el **IoU individual de cada una de las 10 imágenes para cada método**.
+Calcula el **IoU individual de cada una de las 10 imágenes para cada método**.
 
-Por tanto, se obtendrán:
+Por tanto, obtendrás:
 
 $$
 10\ \text{imágenes} \times 4\ \text{métodos}
 = 40\ \text{valores de IoU}
 $$
 
-Los resultados deberán organizarse en una tabla similar a la siguiente:
+Organiza los resultados en una tabla similar a la siguiente:
 
 | Imagen | Categoría | HSV | HSV + Contornos | HSV + Morfología + Centroides | U-Net |
 |---|---|---:|---:|---:|---:|
@@ -204,16 +202,16 @@ Los resultados deberán organizarse en una tabla similar a la siguiente:
 
 # 📊 8. Comparación de los métodos
 
-Para cada método se deberá calcular el **IoU promedio** obtenido sobre las 10 imágenes:
+Para cada método, calcula el **IoU promedio** obtenido sobre las 10 imágenes:
 
 $$
 IoU_{\text{prom}} =
 \frac{1}{10}\sum_{i=1}^{10} IoU_i
 $$
 
-También se deberá calcular la **desviación estándar** de los valores de IoU.
+Calcula también la **desviación estándar** de los valores de IoU.
 
-Los resultados deberán resumirse en una tabla:
+Resume los resultados en una tabla:
 
 | Método | IoU promedio | Desviación estándar |
 |---|---:|---:|
@@ -222,35 +220,39 @@ Los resultados deberán resumirse en una tabla:
 | HSV + Morfología + Centroides | | |
 | U-Net | | |
 
-El IoU promedio permitirá analizar el **desempeño general** de cada estrategia, mientras que la desviación estándar permitirá estudiar qué tan **consistente** es su comportamiento frente a diferentes imágenes.
+Utiliza el IoU promedio para analizar el **desempeño general** de cada estrategia y la desviación estándar para estudiar qué tan **consistente** es su comportamiento frente a diferentes imágenes.
 
 ---
 
 # 🔎 9. Análisis de resultados
 
-A partir de los resultados obtenidos, responda:
+A partir de los resultados obtenidos, responde:
 
-1. ¿Qué diferencias se observan en el desempeño de los cuatro métodos**, teniendo en cuenta el IoU promedio y su desviación estándar?
+1. ¿Qué diferencias observas en el desempeño de los cuatro métodos, teniendo en cuenta el IoU promedio y su desviación estándar?
 
-3. ¿En qué imágenes se obtuvieron los mejores y peores resultados?** Analice qué características de las imágenes pueden explicar estos comportamientos.
+2. ¿En qué imágenes obtuviste los mejores y peores resultados? Analiza qué características de las imágenes pueden explicar estos comportamientos.
 
-4. ¿Qué ventajas y limitaciones presentan los métodos clásicos de PDI y U-Net para la segmentación de las hojas de café? Pueden discutir desempeño, estabilidad, necesidad de ajustar parámetros, costo computacional
+3. ¿Qué ventajas y limitaciones presentan los métodos clásicos de PDI y U-Net para la segmentación de las hojas de café? Considera aspectos como desempeño, estabilidad, ajuste de parámetros, necesidad de *Ground Truth* y costo computacional.
 
-Finalmente, establezca las principales **conclusiones del experimento**, teniendo en cuenta tanto el desempeño promedio como la estabilidad y los tipos de errores observados en cada método.
+Finalmente, establece las principales **conclusiones del experimento**, teniendo en cuenta el desempeño promedio, la estabilidad y los tipos de errores observados en cada método.
+
+---
 
 # 📓 10. Entregables
 
-Cada grupo deberá entregar los siguientes productos:
+Entrega los siguientes productos:
 
 ## A. Notebook
 
 Un **Notebook desarrollado en Python** que documente de manera organizada y reproducible el desarrollo completo del proyecto.
 
+El Notebook debe incluir el desarrollo de los métodos, las visualizaciones de las segmentaciones obtenidas, el cálculo de las métricas, la comparación de los resultados y el análisis final.
+
 ## B. Póster
 
 Un **póster académico** que sintetice los principales elementos y resultados del proyecto.
 
-El póster deberá presentar de forma gráfica y concisa:
+Presenta de forma gráfica y concisa:
 
 - Problema y objetivo del proyecto.
 - Metodología desarrollada.
