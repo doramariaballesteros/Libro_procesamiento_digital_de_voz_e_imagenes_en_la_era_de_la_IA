@@ -1,5 +1,12 @@
 # 🌿 Proyecto – Segmentación de Hojas de Café
 
+> **Procesamiento Digital de Voz e Imágenes en la era de la Inteligencia Artificial**  
+> Dora María Ballesteros  
+> Primera edición, 2026  
+> ISBN: 978-1-957395-68-5
+
+> 🔗 **[Consultar el libro en Editorial REDIPE](https://editorial.redipe.org/index.php/1/catalog/book/260)**
+
 ## 📌 Contexto
 
 Imaginemos que queremos desarrollar una solución capaz de **capturar la foto de una hoja de café y determinar automáticamente su estado de salud**, considerando tres posibles categorías:
