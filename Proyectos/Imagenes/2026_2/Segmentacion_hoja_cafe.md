@@ -272,7 +272,7 @@ Presenta de forma gráfica y concisa:
 
 ## Criterio de evaluación
 
-**Aplica y evalúa técnicas clásicas de PDI e Inteligencia Artificial para resolver un problema de segmentación, utilizando métricas objetivas de desempeño.**
+**RA 2.2. Aplica y evalúa técnicas clásicas de PDI e Inteligencia Artificial para resolver un problema de segmentación, utilizando métricas objetivas de desempeño.**
 
 | Acción observable | Bajo (0) | Medio (250–349) | Alto (350–500) |
 |---|---|---|---|
