@@ -237,3 +237,23 @@ A partir de los resultados obtenidos, responda:
 4. ¿Qué ventajas y limitaciones presentan los métodos clásicos de PDI y U-Net para la segmentación de las hojas de café? Pueden discutir desempeño, estabilidad, necesidad de ajustar parámetros, costo computacional
 
 Finalmente, establezca las principales **conclusiones del experimento**, teniendo en cuenta tanto el desempeño promedio como la estabilidad y los tipos de errores observados en cada método.
+
+# 📓 10. Entregables
+
+Cada grupo deberá entregar los siguientes productos:
+
+## A. Notebook
+
+Un **Notebook desarrollado en Python** que documente de manera organizada y reproducible el desarrollo completo del proyecto.
+
+## B. Póster
+
+Un **póster académico** que sintetice los principales elementos y resultados del proyecto.
+
+El póster deberá presentar de forma gráfica y concisa:
+
+- Problema y objetivo del proyecto.
+- Metodología desarrollada.
+- Ejemplos representativos de las segmentaciones obtenidas.
+- Comparación de los cuatro métodos mediante IoU.
+- Principales conclusiones.
