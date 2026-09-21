@@ -259,3 +259,23 @@ Presenta de forma gráfica y concisa:
 - Ejemplos representativos de las segmentaciones obtenidas.
 - Comparación de los cuatro métodos mediante IoU.
 - Principales conclusiones.
+
+# 📋 Rúbrica de Evaluación
+
+## 🎯 Resultado de Aprendizaje
+
+**Aplica y evalúa técnicas clásicas de procesamiento digital de imágenes y herramientas de Inteligencia Artificial para el mejoramiento, filtrado y/o reconocimiento de patrones, utilizando métricas objetivas de desempeño.**
+
+**Caso de estudio:** Segmentación de hojas de café.
+
+---
+
+## Criterio de evaluación
+
+**Aplica y evalúa técnicas clásicas de PDI e Inteligencia Artificial para resolver un problema de segmentación, utilizando métricas objetivas de desempeño.**
+
+| Acción observable | Bajo (0) | Medio (250–349) | Alto (350–500) |
+|---|---|---|---|
+| **A1. Implementa técnicas clásicas de PDI para segmentar hojas de café mediante HSV, contornos y operaciones morfológicas con análisis de centroides.** | No implementa los métodos clásicos de PDI solicitados. | Implementa parcialmente los métodos clásicos de PDI, sin completar los tres métodos solicitados. | Implementa correctamente los tres métodos clásicos de PDI solicitados: HSV, HSV + contornos y HSV + morfología + centroides. |
+| **A2. Implementa una arquitectura U-Net para la segmentación de hojas de café, utilizando imágenes y máscaras *Ground Truth* para su entrenamiento y evaluación.** | No implementa la arquitectura U-Net para la segmentación de las hojas de café. | Implementa parcialmente la arquitectura U-Net, sin completar adecuadamente el proceso de entrenamiento y predicción sobre las imágenes de prueba. | Implementa correctamente la arquitectura U-Net, utilizando las imágenes y máscaras *Ground Truth* de entrenamiento y generando las máscaras de las imágenes reservadas para prueba. |
+| **A3. Evalúa y compara las soluciones de segmentación mediante IoU, analizando el desempeño, la variabilidad y los errores observados en los métodos implementados.** | No evalúa ni compara las soluciones de segmentación mediante IoU. | Evalúa parcialmente las soluciones de segmentación, sin completar el cálculo del IoU, la comparación de los métodos o el análisis de los resultados. | Evalúa y compara correctamente las cuatro soluciones de segmentación, utilizando el IoU individual, el IoU promedio y la desviación estándar, y analiza los resultados obtenidos. |
