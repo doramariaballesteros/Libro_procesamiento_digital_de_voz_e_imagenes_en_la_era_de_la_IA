@@ -207,10 +207,8 @@ Los resultados deberán organizarse en una tabla similar a la siguiente:
 Para cada método se deberá calcular el **IoU promedio** obtenido sobre las 10 imágenes:
 
 $$
-\overline{IoU}
-=
-\frac{1}{10}
-\sum_{i=1}^{10} IoU_i
+IoU_{\text{prom}} =
+\frac{1}{10}\sum_{i=1}^{10} IoU_i
 $$
 
 También se deberá calcular la **desviación estándar** de los valores de IoU.
@@ -230,19 +228,12 @@ El IoU promedio permitirá analizar el **desempeño general** de cada estrategia
 
 # 🔎 9. Análisis de resultados
 
-A partir de los resultados obtenidos, realizar un análisis comparativo de los cuatro métodos.
+A partir de los resultados obtenidos, responda:
 
-El análisis deberá considerar tanto los valores cuantitativos de IoU como la inspección visual de las máscaras obtenidas.
+1. ¿Qué diferencias se observan en el desempeño de los cuatro métodos**, teniendo en cuenta el IoU promedio y su desviación estándar?
 
-Discuta, entre otros aspectos:
+3. ¿En qué imágenes se obtuvieron los mejores y peores resultados?** Analice qué características de las imágenes pueden explicar estos comportamientos.
 
-- ¿Qué método obtuvo el mayor IoU promedio?
-- ¿Qué método presentó la menor variabilidad entre imágenes?
-- ¿En qué imágenes se obtuvieron los valores más altos y más bajos de IoU?
-- ¿Qué características de las imágenes pueden explicar estos resultados?
-- ¿Cómo afectan los cambios de tonalidad de la hoja a los métodos basados en HSV?
-- ¿Los métodos clásicos logran conservar adecuadamente manchas, lesiones e imperfecciones de las hojas?
-- ¿Qué diferencias se observan entre las reglas definidas mediante PDI y la segmentación aprendida por U-Net?
-- ¿Qué errores de segmentación podrían afectar posteriormente un sistema encargado de clasificar el estado de salud de la hoja?
+4. ¿Qué ventajas y limitaciones presentan los métodos clásicos de PDI y U-Net para la segmentación de las hojas de café? Pueden discutir desempeño, estabilidad, necesidad de ajustar parámetros, costo computacional
 
 Finalmente, establezca las principales **conclusiones del experimento**, teniendo en cuenta tanto el desempeño promedio como la estabilidad y los tipos de errores observados en cada método.
