@@ -187,11 +187,8 @@ Se deberá calcular el **IoU individual de cada una de las 10 imágenes para cad
 Por tanto, se obtendrán:
 
 $$
-10\; \text{imágenes}
-\times
-4\; \text{métodos}
-=
-40\; \text{valores de IoU}
+10\ \text{imágenes} \times 4\ \text{métodos}
+= 40\ \text{valores de IoU}
 $$
 
 Los resultados deberán organizarse en una tabla similar a la siguiente:
@@ -213,7 +210,7 @@ $$
 \overline{IoU}
 =
 \frac{1}{10}
-\sum_{i=1}^{10}IoU_i
+\sum_{i=1}^{10} IoU_i
 $$
 
 También se deberá calcular la **desviación estándar** de los valores de IoU.
