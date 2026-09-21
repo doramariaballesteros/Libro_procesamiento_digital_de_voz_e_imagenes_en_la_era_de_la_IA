@@ -264,7 +264,7 @@ Presenta de forma gráfica y concisa:
 
 ## 🎯 Resultado de Aprendizaje
 
-**Aplica y evalúa técnicas clásicas de procesamiento digital de imágenes y herramientas de Inteligencia Artificial para el mejoramiento, filtrado y/o reconocimiento de patrones, utilizando métricas objetivas de desempeño.**
+**RA 2.2. Aplica y evalúa técnicas clásicas de procesamiento digital de imágenes y herramientas de Inteligencia Artificial para el mejoramiento, filtrado y/o reconocimiento de patrones, utilizando métricas objetivas de desempeño.**
 
 **Caso de estudio:** Segmentación de hojas de café.
 
@@ -272,7 +272,7 @@ Presenta de forma gráfica y concisa:
 
 ## Criterio de evaluación
 
-**RA 2.2. Aplica y evalúa técnicas clásicas de PDI e Inteligencia Artificial para resolver un problema de segmentación, utilizando métricas objetivas de desempeño.**
+*Aplica y evalúa técnicas clásicas de PDI e Inteligencia Artificial para resolver un problema de segmentación, utilizando métricas objetivas de desempeño.*
 
 | Acción observable | Bajo (0) | Medio (250–349) | Alto (350–500) |
 |---|---|---|---|
