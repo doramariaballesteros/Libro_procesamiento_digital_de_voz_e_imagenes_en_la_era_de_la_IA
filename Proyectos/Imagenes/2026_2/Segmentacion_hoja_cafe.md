@@ -120,13 +120,9 @@ Una vez finalizado el entrenamiento, la U-Net deberá utilizarse para realizar l
 
 Para cada imagen se obtendrá:
 
-\[
-I_i
-\rightarrow
-\text{U-Net}
-\rightarrow
-\widehat{GT}_{i,\text{U-Net}}
-\]
+$$
+I_i \rightarrow \text{U-Net} \rightarrow \widehat{GT}_{i,\text{U-Net}}
+$$
 
 Las 10 máscaras obtenidas deberán almacenarse para su posterior evaluación.
 
@@ -171,11 +167,11 @@ Al finalizar esta etapa, cada una de las 10 imágenes de prueba tendrá cuatro m
 
 Cada máscara obtenida deberá compararse con su correspondiente máscara *Ground Truth* utilizando la métrica **Intersection over Union (IoU)**:
 
-\[
+$$
 IoU =
 \frac{|GT \cap P|}
 {|GT \cup P|}
-\]
+$$
 
 donde:
 
@@ -190,13 +186,13 @@ Se deberá calcular el **IoU individual de cada una de las 10 imágenes para cad
 
 Por tanto, se obtendrán:
 
-\[
+$$
 10\; \text{imágenes}
 \times
 4\; \text{métodos}
 =
 40\; \text{valores de IoU}
-\]
+$$
 
 Los resultados deberán organizarse en una tabla similar a la siguiente:
 
@@ -213,12 +209,12 @@ Los resultados deberán organizarse en una tabla similar a la siguiente:
 
 Para cada método se deberá calcular el **IoU promedio** obtenido sobre las 10 imágenes:
 
-\[
+$$
 \overline{IoU}
 =
 \frac{1}{10}
 \sum_{i=1}^{10}IoU_i
-\]
+$$
 
 También se deberá calcular la **desviación estándar** de los valores de IoU.
 
