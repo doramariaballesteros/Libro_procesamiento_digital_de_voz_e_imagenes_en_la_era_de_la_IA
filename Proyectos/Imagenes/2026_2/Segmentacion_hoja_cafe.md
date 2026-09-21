@@ -10,7 +10,7 @@ Imaginemos que queremos desarrollar una solución capaz de **capturar la foto de
 
 Antes de realizar esta clasificación, es necesario identificar qué región de la foto corresponde realmente a la hoja. La imagen puede contener otros elementos en el fondo que no aportan información sobre su estado y que podrían interferir en un análisis posterior.
 
-Por esta razón, el **primer paso consiste en segmentar la imagen**, separando la hoja —incluyendo sus manchas, lesiones e imperfecciones— del resto de la escena. El resultado esperado es una máscara que permita identificar los píxeles pertenecientes a la hoja y descartar aquellos correspondientes al fondo.
+Por esta razón, el **primer paso consiste en segmentar la imagen**, separando la hoja -incluyendo sus manchas, lesiones e imperfecciones- del resto de la escena. El resultado esperado es una máscara que permita identificar los píxeles pertenecientes a la hoja y descartar aquellos correspondientes al fondo.
 
 Este problema puede resolverse desde dos perspectivas. La primera utiliza **técnicas clásicas de Procesamiento Digital de Imágenes (PDI)**, en las cuales las reglas de segmentación son definidas explícitamente. La segunda utiliza **Inteligencia Artificial**, mediante una arquitectura **U-Net** que aprende a segmentar la hoja a partir de imágenes y máscaras de referencia (*Ground Truth*).
 
