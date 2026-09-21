@@ -2,13 +2,13 @@
 
 ## 📌 Contexto
 
-Imaginemos que queremos desarrollar una solución capaz de **capturar la fotografía de una hoja de café y determinar automáticamente su estado de salud**, considerando tres posibles categorías:
+Imaginemos que queremos desarrollar una solución capaz de **capturar la foto de una hoja de café y determinar automáticamente su estado de salud**, considerando tres posibles categorías:
 
 - **Hoja sana (*healthy*)**
 - **Hoja afectada por ácaro rojo (*red spider mite*)**
 - **Hoja afectada por roya (*rust*)**
 
-Antes de realizar esta clasificación, es necesario identificar qué región de la fotografía corresponde realmente a la hoja. La imagen puede contener otros elementos en el fondo que no aportan información sobre su estado y que podrían interferir en un análisis posterior.
+Antes de realizar esta clasificación, es necesario identificar qué región de la foto corresponde realmente a la hoja. La imagen puede contener otros elementos en el fondo que no aportan información sobre su estado y que podrían interferir en un análisis posterior.
 
 Por esta razón, el **primer paso consiste en segmentar la imagen**, separando la hoja —incluyendo sus manchas, lesiones e imperfecciones— del resto de la escena. El resultado esperado es una máscara que permita identificar los píxeles pertenecientes a la hoja y descartar aquellos correspondientes al fondo.
 
