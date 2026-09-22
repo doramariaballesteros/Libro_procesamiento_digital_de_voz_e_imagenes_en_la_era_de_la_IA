@@ -72,14 +72,14 @@ puntaje = area * (1 + 3 * proporcion_central) * cercania * penalizacion
 Experimenta incorporando progresivamente las diferentes características:
 
 ```python
-# Solo área
-puntaje = area
+# Cercanía y penalización
+puntaje = cercania * penalizacion
 
-# Área + posición central
-puntaje = area * (1 + 3 * proporcion_central)
+# Cercanía y posición central
+puntaje = cercania * (1 + 3 * proporcion_central)
 
-# Área + posición central + cercanía
-puntaje = area * (1 + 3 * proporcion_central) * cercania
+# Área y posición central 
+puntaje = area * (1 + 3 * proporcion_central) 
 
 # Regla completa
 puntaje = area * (1 + 3 * proporcion_central) * cercania * penalizacion
