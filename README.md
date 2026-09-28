@@ -64,7 +64,7 @@ La carpeta [`Figuras`](Figuras/) contiene una selección de las figuras utilizad
 # 🎵 Capítulo 1. Fundamentos del Procesamiento Digital de Señales y Filtros Digitales
 
 📒 **Notebook:**  
-[Capitulo_1.ipynb](Capitulo_1.ipynb)
+[Capitulo 1.ipynb](Seccion_I/Capitulo%201.ipynb)
 
 ### 🎯 Objetivo
 
@@ -85,7 +85,7 @@ Comprender los fundamentos del procesamiento digital de señales y el diseño de
 # 🔇 Capítulo 2. Eliminación de Ruido con Filtros Digitales
 
 📒 **Notebook:**  
-[Capitulo_2.ipynb](Capitulo_2.ipynb)
+[Capitulo 2.ipynb](Seccion_I/Capitulo%202.ipynb)
 
 ### 🎯 Objetivo
 
@@ -106,7 +106,7 @@ Aplicar diferentes técnicas de filtrado digital para reducir el ruido presente 
 # 🤖 Capítulo 3. Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral
 
 📒 **Notebook:**  
-[Capitulo_3.ipynb](Capitulo_3.ipynb)
+[Capitulo 3.ipynb](Seccion_I/Capitulo%203.ipynb)
 
 ### 🎯 Objetivo
 
@@ -125,7 +125,7 @@ Implementar técnicas de Inteligencia Artificial para localizar automáticamente
 # 🖼️ Capítulo 4. Fundamentos del Procesamiento Digital de Imágenes
 
 📒 **Notebook:**  
-[Capitulo_4.ipynb](Capitulo_4.ipynb)
+[Capitulo 4.ipynb](Seccion_II/Capitulo%204.ipynb)
 
 ### 🎯 Objetivo
 
@@ -143,7 +143,7 @@ Comprender los fundamentos del procesamiento digital de imágenes mediante técn
 # ✂️ Capítulo 5. Segmentación de Imágenes con Técnicas Clásicas de PDI
 
 📒 **Notebook:**  
-[Capitulo_5.ipynb](Capitulo_5.ipynb)
+[Capitulo 5.ipynb](Seccion_II/Capitulo%205.ipynb)
 
 ### 🎯 Objetivo
 
