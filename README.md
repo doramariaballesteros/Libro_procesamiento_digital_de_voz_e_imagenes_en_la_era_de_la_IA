@@ -26,24 +26,33 @@ El objetivo del repositorio es facilitar un aprendizaje activo, donde el lector 
 
 | Sección | Cap. | Tema | Descripción | 📒 Notebook | 📂 Archivos |
 |:--------|:---:|------|-------------|:----------:|:----------:|
-| 🎙️ **Audio** | **1** | 🎵 **Fundamentos del Procesamiento Digital de Señales y Filtros Digitales** | Introducción a los fundamentos del procesamiento digital de señales, diseño y análisis de filtros FIR e IIR mediante ejemplos implementados en Python. | [Abrir](Capitulo_1.ipynb) | [Audio](Audio/) |
-| | **2** | 🔇 **Eliminación de Ruido con Filtros Digitales** | Aplicación de filtros digitales para la reducción de ruido en señales de voz, comparando diferentes estrategias de filtrado en los dominios del tiempo y la frecuencia. | [Abrir](Capitulo_2.ipynb) | [Audio](Audio/) |
-| | **3** | 🤖 **Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral** | Uso de técnicas de Inteligencia Artificial para la localización automática de interferencias y el filtrado espectral de señales de voz mediante algoritmos de aprendizaje no supervisado. | [Abrir](Capitulo_3.ipynb) | [Audio](Audio/) |
-| 🖼️ **Imágenes** | **4** | 🖼️ **Fundamentos del Procesamiento Digital de Imágenes** | Introducción a las principales técnicas de procesamiento digital de imágenes, incluyendo ecualización, detección de bordes y segmentación mediante el modelo HSV. | [Abrir](Capitulo_4.ipynb) | [Imágenes](Imagenes/) |
-| | **5** | ✂️ **Segmentación de Imágenes con Técnicas Clásicas de PDI** | Aplicación de técnicas clásicas de segmentación utilizando máscaras binarias, contornos, operaciones morfológicas y análisis de centroides. | [Abrir](Capitulo_5.ipynb) | [Imágenes](Imagenes/) |
-| | **6** | 🧠 **Segmentación Automática con Inteligencia Artificial** | Desarrollo de un modelo basado en la arquitectura U-Net para la segmentación automática de imágenes mediante técnicas modernas de aprendizaje profundo. | [Abrir](Capitulo_6.ipynb) | [Imágenes](Imagenes/) |
+| 🎙️ **Audio** | **1** | 🎵 **Fundamentos del Procesamiento Digital de Señales y Filtros Digitales** | Introducción a los fundamentos del procesamiento digital de señales, diseño y análisis de filtros FIR e IIR mediante ejemplos implementados en Python. | [Abrir](Seccion_I/Capitulo%201.ipynb) | [Audio](Seccion_I/Audios/) |
+| | **2** | 🔇 **Eliminación de Ruido con Filtros Digitales** | Aplicación de filtros digitales para la reducción de ruido en señales de voz, comparando diferentes estrategias de filtrado en los dominios del tiempo y la frecuencia. | [Abrir](Seccion_I/Capitulo%202.ipynb) | [Audio](Seccion_I/Audios/) |
+| | **3** | 🤖 **Inteligencia Artificial para Localización de Interferencias y Filtrado Espectral** | Uso de técnicas de Inteligencia Artificial para la localización automática de interferencias y el filtrado espectral de señales de voz mediante algoritmos de aprendizaje no supervisado. | [Abrir](Seccion_I/Capitulo%203.ipynb) | [Audio](Seccion_I/Audios/) |
+| 🖼️ **Imágenes** | **4** | 🖼️ **Fundamentos del Procesamiento Digital de Imágenes** | Introducción a las principales técnicas de procesamiento digital de imágenes, incluyendo ecualización, detección de bordes y segmentación mediante el modelo HSV. | [Abrir](Seccion_II/Capitulo%204.ipynb) | [Imágenes](Seccion_II/Imagenes/) |
+| | **5** | ✂️ **Segmentación de Imágenes con Técnicas Clásicas de PDI** | Aplicación de técnicas clásicas de segmentación utilizando máscaras binarias, contornos, operaciones morfológicas y análisis de centroides. | [Abrir](Seccion_II/Capitulo%205.ipynb) | [Imágenes](Seccion_II/Imagenes/) |
+| | **6** | 🧠 **Segmentación Automática con Inteligencia Artificial** | Desarrollo de un modelo basado en la arquitectura U-Net para la segmentación automática de imágenes mediante técnicas modernas de aprendizaje profundo. | [Abrir](Seccion_II/Capitulo%206.ipynb) | [U-Net](Seccion_II/U_NET/) |
 
 ## 🎧 Audio
 
-La carpeta `Audio/` contiene los archivos de audio utilizados en la **Sección I** del libro para desarrollar los ejemplos, experimentos y proyectos propuestos.
+La carpeta [`Seccion_I/Audios/`](Seccion_I/Audios/) contiene los archivos de audio utilizados en la **Sección I** del libro para desarrollar los ejemplos y experimentos propuestos.
 
 ## 🖼️ Imágenes
 
-La carpeta `Imagenes/` contiene los archivos de imagen utilizados en la **Sección II** del libro para desarrollar los ejemplos, experimentos y proyectos propuestos.
+La carpeta [`Seccion_II/Imagenes/`](Seccion_II/Imagenes/) contiene los archivos de imagen utilizados en la **Sección II** del libro para desarrollar los ejemplos y experimentos propuestos.
 
 ## 🧩 Proyectos
 
-La carpeta `Proyectos/` contiene los proyectos propuestos a lo largo del libro, organizados por sección, para aplicar de manera práctica los conceptos desarrollados.
+Los proyectos se encuentran organizados dentro de cada sección:
+
+- [`Seccion_I/Proyecto/`](Seccion_I/Proyecto/) — Proyecto correspondiente al procesamiento digital de audio.
+- [`Seccion_II/Proyecto/`](Seccion_II/Proyecto/) — Proyecto correspondiente al procesamiento digital de imágenes.
+
+## 🧠 Actividad U-Net
+
+La carpeta [`Seccion_II/U_NET/`](Seccion_II/U_NET/) contiene una actividad guiada para comprender progresivamente los conceptos de convolución, tamaño de los *feature maps*, canales, múltiples filtros y la arquitectura U-Net.
+
+📘 **[Abrir actividad: De la convolución 2D a U-Net](Seccion_II/U_NET/Actividad.md)**
 
 ## 🖼️ Figuras
 
@@ -151,7 +160,7 @@ Aplicar técnicas clásicas de procesamiento digital de imágenes para segmentar
 # 🧠 Capítulo 6. Segmentación Automática con Inteligencia Artificial
 
 📒 **Notebook:**  
-[Capitulo_6.ipynb](Capitulo_6.ipynb)
+[Capitulo 6.ipynb](Seccion_II/Capitulo%206.ipynb)
 
 ### 🎯 Objetivo
 
@@ -160,6 +169,12 @@ Desarrollar un modelo de segmentación semántica basado en la arquitectura U-Ne
 ### 📑 Contenido del notebook
 
 - Ejemplo 30. Entrenamiento de una U-Net para la segmentación automática de la hoja principal del dataset RoCoLe.
+
+### 🧩 Actividad complementaria
+
+Antes de desarrollar el modelo, realiza la actividad guiada para comprender la evolución de las dimensiones y los canales de los *feature maps* a lo largo de la arquitectura U-Net.
+
+👉 **[Actividad: De la convolución 2D a U-Net](Seccion_II/U_NET/Actividad.md)**
 
 ---
 
