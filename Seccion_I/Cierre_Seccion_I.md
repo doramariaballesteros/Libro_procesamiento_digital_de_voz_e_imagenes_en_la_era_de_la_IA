@@ -17,10 +17,10 @@ Finalmente, el pequeño **quiz** te permitió volver sobre esa solución, pero e
 
 ## 🔄 Nuestro recorrido
 
-![Nuestro recorrido de aprendizaje](Seccion_I/Resumen_seccion.png)
+![Resumen de la Sección I](Resumen_seccion.png)
 
 <p align="center">
-  <em>Figura. Nuestro recorrido de aprendizaje en la Sección I: del método a la toma de decisiones.</em>
+  <img src="Resumen_seccion.png" width="900">
 </p>
 ---
 
