@@ -56,7 +56,7 @@ La carpeta [`Seccion_II/U_NET/`](Seccion_II/U_NET/) contiene una actividad guiad
 
 ## 🖼️ Figuras
 
-La carpeta Figuras/ contiene una selección de las figuras utilizadas a lo largo del libro, disponibles en alta resolución.
+La carpeta [`Figuras`](Figuras/) contiene una selección de las figuras utilizadas a lo largo del libro, disponibles en alta resolución.
 
 ---
 # 🎙️ Sección I. Procesamiento Digital de Audio e Inteligencia Artificial
