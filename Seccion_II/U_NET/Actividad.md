@@ -363,7 +363,7 @@ Responde:
 
 ---
 
-# 🏁 Conclusión del reto
+# 🏁 Conclusión de la actividad
 
 Completa **con tus propias palabras**:
 
