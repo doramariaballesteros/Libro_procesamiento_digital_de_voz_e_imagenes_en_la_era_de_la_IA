@@ -226,7 +226,7 @@ Los niveles de desempeño se interpretan conforme a las descripciones de la figu
 ### 🔒 Publicación en GitHub
 
 1. Cada estudiante o equipo deberá crear un repositorio en **GitHub con visibilidad privada (`Private`)**.
-2. La docente del curso deberá ser agregada como **colaboradora** del repositorio, de manera que pueda consultar y evaluar los archivos publicados.
+2. La docente del curso deberá ser agregada como colaboradora del repositorio privado, utilizando su usuario de GitHub: @doramariaballesteros, para que pueda consultar y evaluar los archivos publicados.
 3. El repositorio deberá contener:
    - Un **notebook de Python (`.ipynb`)**, organizado por tareas, con código ejecutable, explicaciones, gráficas y análisis.
    - Los **tres datasets** generados, debidamente identificados.
