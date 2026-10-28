@@ -10,7 +10,7 @@ En este proyecto se aplicarán herramientas de **procesamiento de señales unidi
 
 El propósito no es confirmar una opinión previa sobre la política pública. Se espera que cada estudiante construya datos trazables, establezca condiciones equiparables de comparación, ejecute procedimientos reproducibles y formule conclusiones respaldadas por evidencia cuantitativa.
 
-### Fuente de información y herramientas
+###🛠️ Fuente de información y herramientas
 
 - **Fuente principal:** [Sistema de consultas públicas del SNIES — Ministerio de Educación Nacional](https://hecaa.mineducacion.gov.co/consultaspublicas/content/poblacional/index.jsf).
 - **Cobertura temporal:** 2016–2025, con datos estadísticos anuales.
@@ -22,7 +22,7 @@ El propósito no es confirmar una opinión previa sobre la política pública. S
 
 ---
 
-## Tarea 1. Construcción del dataset de matrícula en educación superior
+## 🗂️ Tarea 1. Construcción del dataset de matrícula en educación superior
 
 ![Tarea 1. Construcción del dataset de matrícula en educación superior](Tarea1.png)
 
@@ -52,7 +52,7 @@ El propósito no es confirmar una opinión previa sobre la política pública. S
 
 ---
 
-## Tarea 2. Ingeniería de características temporales
+## ⚙️ Tarea 2. Ingeniería de características temporales
 
 ![Tarea 2. Ingeniería de características temporales](Tarea2.png)
 
@@ -92,7 +92,7 @@ donde $O_i$ es el porcentaje de matrícula oficial en el año $i$. El resultado 
 
 ---
 
-## Tarea 3. Visualización y análisis de señales temporales
+## 📈 Tarea 3. Visualización y análisis de señales temporales
 
 ![Tarea 3. Visualización y análisis de señales temporales](Tarea3.png)
 
@@ -122,7 +122,7 @@ Se esperan **dos señales adicionales en una figura**. En total, la tarea compre
 
 ---
 
-## Tarea 4. Agrupamiento de departamentos según sus patrones temporales
+## 🧩 Tarea 4. Agrupamiento de departamentos según sus patrones temporales
 
 ![Tarea 4. Agrupamiento de departamentos según sus patrones temporales](Tarea4.png)
 
@@ -156,7 +156,7 @@ Investigue algoritmos adecuados (por ejemplo, K-means, agrupamiento jerárquico,
 
 ---
 
-## Tarea 5. Análisis del posible impacto de la Ley 2307 de 2023
+## 🔎 Tarea 5. Análisis del posible impacto de la Ley 2307 de 2023
 
 ![Tarea 5. Análisis del posible impacto de la Ley 2307 de 2023](Tarea5.png)
 
@@ -198,7 +198,7 @@ $$
 
 ---
 
-## Rúbrica de evaluación — 500 puntos
+## 🏅 Rúbrica de evaluación — 500 puntos
 
 ![Rúbrica de evaluación del proyecto](Rubrica.png)
 
