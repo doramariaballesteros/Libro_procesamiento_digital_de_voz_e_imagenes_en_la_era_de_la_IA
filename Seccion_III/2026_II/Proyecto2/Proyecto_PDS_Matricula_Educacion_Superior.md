@@ -202,14 +202,6 @@ $$
 
 ![Rúbrica de evaluación del proyecto](Rubrica.png)
 
-| Criterio | No realizado | Parcial o con errores | Correcto | Máximo |
-|---|---:|---:|---:|---:|
-| Construcción y validación del dataset | 0 | 50 | 100 | **100** |
-| Ingeniería de características temporales y visualización | 0 | 75 | 150 | **150** |
-| Método no supervisado para agrupamiento de señales 1D | 0 | 75 | 150 | **150** |
-| Análisis de resultados en torno a la Ley 2307 de 2023 | 0 | 50 | 100 | **100** |
-| **Total** | | | | **500** |
-
 Los niveles de desempeño se interpretan conforme a las descripciones de la figura. En particular, **un agrupamiento válido no tiene que coincidir con grupos preconcebidos**: debe estar correctamente implementado y ser coherente con los patrones temporales. Asimismo, **la evaluación del análisis de la ley no depende de concluir que esta tuvo un efecto positivo o negativo**, sino de la solidez del procedimiento y la argumentación.
 
 ## 📤 Condiciones generales de entrega y rigor académico
