@@ -192,7 +192,7 @@ $$
 
 **Pregunta 2.** ¿En qué medida los cambios identificados podrían estar relacionados con la Ley 2307 de 2023? Argumente teniendo en cuenta el alcance de la ley y otros factores que podrían influir en la evolución de la matrícula.
 
-**Precauciones de interpretación:** la Ley 2307 de 2023 establece la gratuidad de matrícula para programas de pregrado en instituciones de educación superior públicas. Las tasas por nivel de formación construidas en este proyecto reúnen matrícula de distintos sectores, por lo que **no miden aisladamente el efecto sobre las instituciones públicas**. La existencia de antecedentes de gratuidad no implica que fueran equivalentes a la ley. Asimismo, observar incrementos posteriores a su promulgación **no demuestra por sí solo una relación causal** ni significancia estadística. Las conclusiones deben formularse dentro del alcance descriptivo del protocolo.
+**⚠️ Precauciones de interpretación:** Si bien el Decreto 1667 de 2021 ya contemplaba una política de gratuidad de matrícula, este proyecto busca analizar el posible impacto de la Ley 2307 de 2023, considerando que introdujo diferencias importantes en términos de cobertura, restricciones de edad y financiación con recursos del Presupuesto General de la Nación. A partir del análisis, se puede identificar si existió un incremento en la matrícula después de la promulgación de la Ley 2307 de 2023, pero no es posible establecer si dicho incremento obedeció exclusivamente a la ley.}
 
 **Entregables:** código reproducible; tabla comparativa; gráficas; respuestas sustentadas a las dos preguntas.
 
@@ -212,13 +212,27 @@ $$
 
 Los niveles de desempeño se interpretan conforme a las descripciones de la figura. En particular, **un agrupamiento válido no tiene que coincidir con grupos preconcebidos**: debe estar correctamente implementado y ser coherente con los patrones temporales. Asimismo, **la evaluación del análisis de la ley no depende de concluir que esta tuvo un efecto positivo o negativo**, sino de la solidez del procedimiento y la argumentación.
 
-## Condiciones generales de entrega y rigor académico
+## 📤 Condiciones generales de entrega y rigor académico
 
-1. Entregue un **notebook de Python (`.ipynb`)** organizado por tareas, con código ejecutable, explicaciones, gráficas y análisis.
-2. Incluya los **tres datasets** generados o utilizados, identificando sus nombres y estructura.
-3. Identifique claramente la fuente de los datos y las fuentes adicionales utilizadas para el contexto territorial.
-4. Documente cualquier exclusión, estimación, transformación o decisión metodológica que pueda modificar los resultados.
-5. Distinga entre **hechos observados, interpretaciones, hipótesis y afirmaciones causales**. No presente correlaciones o cambios temporales como pruebas automáticas de causalidad.
-6. Se permite utilizar herramientas de **inteligencia artificial como apoyo para programar**, pero las decisiones metodológicas, la evaluación de resultados y las conclusiones deben ser propias y estar justificadas.
+### 📅 Fechas de entrega
 
-> **Principio del proyecto:** una afirmación es tan sólida como la evidencia y el procedimiento que la sustentan. Comparar datos exige definir variables, unidades, periodos y condiciones equiparables.
+- **Primera entrega — 10 de noviembre de 2026:** desarrollo completo de la **Tarea 1. Construcción del dataset de matrícula en educación superior**.
+- **Segunda entrega — fecha máxima: 24 de noviembre de 2026:** desarrollo de las **Tareas 2, 3, 4 y 5**, incluyendo los análisis y resultados correspondientes.
+
+### 🔒 Publicación en GitHub
+
+1. Cada estudiante o equipo deberá crear un repositorio en **GitHub con visibilidad privada (`Private`)**.
+2. La docente del curso deberá ser agregada como **colaboradora** del repositorio, de manera que pueda consultar y evaluar los archivos publicados.
+3. El repositorio deberá contener:
+   - Un **notebook de Python (`.ipynb`)**, organizado por tareas, con código ejecutable, explicaciones, gráficas y análisis.
+   - Los **tres datasets** generados, debidamente identificados.
+   - La documentación necesaria para comprender y reproducir los procedimientos realizados.
+4. El enlace del repositorio deberá ser compartido con la docente para su evaluación.
+5. Los archivos correspondientes a cada entrega deberán estar publicados en el repositorio **a más tardar en la fecha establecida**.
+
+### 🔬 Rigor académico
+
+1. Identifique claramente la fuente de los datos y las fuentes adicionales utilizadas para el análisis del contexto territorial.
+2. Documente cualquier exclusión, estimación, transformación o decisión metodológica que pueda modificar los resultados.
+3. Distinga entre **hechos observados, interpretaciones, hipótesis y afirmaciones causales**. No presente correlaciones o cambios temporales como pruebas automáticas de causalidad.
+4. Se permite utilizar herramientas de **inteligencia artificial como apoyo para la programación**. Sin embargo, las decisiones metodológicas, la evaluación de resultados y las conclusiones deben ser propias y estar debidamente justificadas.
