@@ -10,7 +10,7 @@ En este proyecto se aplicarán herramientas de **procesamiento de señales unidi
 
 El propósito no es confirmar una opinión previa sobre la política pública. Se espera que cada estudiante construya datos trazables, establezca condiciones equiparables de comparación, ejecute procedimientos reproducibles y formule conclusiones respaldadas por evidencia cuantitativa.
 
-###🛠️ Fuente de información y herramientas
+### 🛠️ Fuente de información y herramientas
 
 - **Fuente principal:** [Sistema de consultas públicas del SNIES — Ministerio de Educación Nacional](https://hecaa.mineducacion.gov.co/consultaspublicas/content/poblacional/index.jsf).
 - **Cobertura temporal:** 2016–2025, con datos estadísticos anuales.
@@ -18,10 +18,22 @@ El propósito no es confirmar una opinión previa sobre la política pública. S
 - **Herramientas:** Python y bibliotecas apropiadas para manejo de datos, visualización y aprendizaje no supervisado.
 - **Unidad de análisis:** el departamento, el nivel de formación y sus variaciones interanuales, según la tarea.
 
-**Importante:** las cifras, departamentos y agrupamientos que aparecen en las figuras como ejemplos son *ilustrativos*. Los resultados definitivos deben obtenerse de los datos consultados y procesados por cada estudiante.
+**📌 Importante:** las cifras, los departamentos y los agrupamientos presentados como ejemplos en las figuras son *ilustrativos*. Los resultados definitivos deben obtenerse de los datos consultados y procesados por cada estudiante.
 
 ---
 
+### 🧭 Estructura general del proyecto
+
+El proyecto se desarrolla mediante **cinco tareas secuenciales**, en las que los resultados de cada etapa constituyen la base para las siguientes:
+
+1. 🗂️ **Construcción del dataset:** obtener, organizar y validar la evidencia.
+2. ⚙️ **Ingeniería de características temporales:** transformar los datos originales en variables que permitan realizar comparaciones válidas.
+3. 📈 **Visualización y análisis de señales temporales:** identificar, comparar e interpretar patrones de comportamiento.
+4. 🧩 **Agrupamiento de departamentos:** descubrir similitudes entre patrones temporales mediante métodos de aprendizaje no supervisado.
+5. 🔎 **Análisis de la Ley 2307 de 2023:** utilizar los resultados para investigar una pregunta de interés nacional, sustentando las conclusiones en evidencia cuantitativa.
+   
+***El propósito no es únicamente obtener resultados, sino aprender a construir conclusiones mediante procedimientos reproducibles, comparaciones válidas y evidencia verificable.***
+---
 ## 🗂️ Tarea 1. Construcción del dataset de matrícula en educación superior
 
 ![Tarea 1. Construcción del dataset de matrícula en educación superior](Tarea1.png)
