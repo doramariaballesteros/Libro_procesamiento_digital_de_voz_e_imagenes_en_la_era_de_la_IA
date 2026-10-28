@@ -1,6 +1,6 @@
-# Proyecto de Procesamiento Digital de Señales
+# 📡 Proyecto de Procesamiento Digital de Señales
 
-## Análisis de señales temporales de matrícula en educación superior en Colombia (2016–2025)
+## 🎓 Análisis de señales temporales de matrícula en educación superior en Colombia (2016–2025)
 
 > **Resultado de aprendizaje (RA).** Diseña y ejecuta protocolos experimentales para la evaluación de soluciones de Procesamiento Digital de Señales 1D o 2D, definiendo variables, métricas, procedimientos y criterios de análisis acordes con el problema estudiado.
 
