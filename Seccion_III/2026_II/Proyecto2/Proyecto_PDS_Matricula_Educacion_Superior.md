@@ -18,7 +18,9 @@ El propósito no es confirmar una opinión previa sobre la política pública. S
 - **Herramientas:** Python y bibliotecas apropiadas para manejo de datos, visualización y aprendizaje no supervisado.
 - **Unidad de análisis:** el departamento, el nivel de formación y sus variaciones interanuales, según la tarea.
 
-**📌 Importante:** las cifras, los departamentos y los agrupamientos presentados como ejemplos en las figuras son *ilustrativos*. Los resultados definitivos deben obtenerse de los datos consultados y procesados por cada estudiante.
+**📌 Importante 1:** grupos de 3 a 4 estudiantes.
+
+**📌 Importante 2:** las cifras, los departamentos y los agrupamientos presentados como ejemplos en las figuras son *ilustrativos*. Los resultados definitivos deben obtenerse de los datos consultados y procesados por cada estudiante.
 
 ---
 
